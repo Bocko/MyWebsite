@@ -17,7 +17,8 @@ const routeConfig: Routes = [
     {
       path: 'repos',
       component: ReposComponent,
-      title: 'Repositories',
+      title: 'My Repositories',
     },
   ];
-  export default routeConfig;
+
+export default routeConfig;

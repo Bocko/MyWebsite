@@ -1,7 +1,46 @@
-
-body {
-  margin: 10;
+.navibar
+{
+  font-size: 1.5em;
+  align-content: center;
+  padding: 1rem;
+  background-color: var(--backgroundColor);
 }
-.gallery-item {
-  margin: 15px;
+
+main
+{
+  min-height: calc(100vh - 8.75rem);
+}
+
+.yearText
+{
+  align-self: center;
+}
+
+.nav-active
+{
+  color: var(--mainColor) !important;
+}
+
+.nav-link
+{
+  text-align: center;
+}
+
+.spacer
+{
+  height: 1rem;
+  min-height: 1rem;
+  max-height: 1rem;
+}
+
+nav div a:hover
+{
+  cursor: pointer;
+  color: var(--selectionColor) !important;
+}
+
+.footer
+{
+  background-color: var(--backgroundColor);
+  padding: 0.5rem;
 }

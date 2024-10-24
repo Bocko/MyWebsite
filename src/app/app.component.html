@@ -1,23 +1,27 @@
-<main>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div  class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/']">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/gallery']">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/repos']">Repositories</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <section>
+<div>
+
+  <div class="navibar">
+    <nav class="container-fluid col-lg-6">
+      <div class=" row">
+          <a class="col-lg-4 nav-link" [routerLink]="['/']" [routerLinkActiveOptions]="{exact: true}" [routerLinkActive]="['nav-active']">About</a>
+          <a class="col-lg-4 nav-link" [routerLink]="['/gallery']" [routerLinkActive]="['nav-active']">Gallery</a>
+          <a class="col-lg-4 nav-link" [routerLink]="['/repos']" [routerLinkActive]="['nav-active']">Repositories</a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="spacer"></div>
+
+  <main class="container-fluid col-lg-6">
     <router-outlet></router-outlet>
-  </section>
-</main>
+  </main>
+
+  <div class="spacer"></div>
+  
+  <footer class="footer">
+    <div class="container-fluid col-lg-6 yearText">
+        <p class="m-0">© {{year}} Botond László</p>
+    </div>
+  </footer>
+
+</div>

@@ -3,3 +3,35 @@
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
 @import 'lightgallery/scss/lightgallery-bundle';
+
+:root
+{
+	--mainColor: #25D7AA;
+	--backgroundColor: #4F6367;
+	--backgroundColorDark: #3F3f4F;
+	--backgroundColorDarker: #232930;
+	--textColor: #FCF7F8;
+	--selectionColor: #25D7CC;
+	--iconColor: #CC2936;
+}
+
+body{
+    
+    font-family: FuturaBold;
+    color: var(--textColor);
+}
+
+body 
+{
+	background: linear-gradient(45deg, var(--backgroundColorDark), var(--backgroundColorDarker));
+    background-attachment: fixed;
+	background-size: 200% 200%;
+	animation: gradient 60s ease-in-out infinite;
+}
+
+@keyframes gradient 
+{
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}

@@ -24,4 +24,5 @@ export class AppComponent {
     const { index, prevIndex } = detail;
     //console.log(index, prevIndex);
   };
+  year = new Date().getFullYear();
 }
