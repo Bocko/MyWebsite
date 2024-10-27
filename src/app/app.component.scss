@@ -33,6 +33,16 @@ main
   max-height: 1rem;
 }
 
+.linkRightMargin
+{
+  margin-right: 1rem;
+}
+
+.nav-link
+{
+  color: var(--selectionColor)
+}
+
 nav div a:hover
 {
   cursor: pointer;

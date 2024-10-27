@@ -3,6 +3,7 @@
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
 @import 'lightgallery/scss/lightgallery-bundle';
+@import url('./assets/icons/css/all.css');
 
 :root
 {
@@ -11,6 +12,7 @@
 	--backgroundColorDark: #3F3f4F;
 	--backgroundColorDarker: #232930;
 	--textColor: #FCF7F8;
+	--textColorSecondary: #C6C2C3;
 	--selectionColor: #25D7CC;
 	--iconColor: #CC2936;
 }
@@ -19,6 +21,11 @@ body{
     
     font-family: FuturaBold;
     color: var(--textColor);
+}
+
+a
+{
+	color: var(--selectionColor);
 }
 
 body 
