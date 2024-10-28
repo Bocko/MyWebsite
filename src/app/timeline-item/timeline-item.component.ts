@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { TimelineEntry } from '../interfaces/timeline-entry';
 
 @Component({
   selector: 'mw-timeline-item',
@@ -8,9 +9,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './timeline-item.component.scss'
 })
 export class TimelineItemComponent {
-  @Input() logoPath! : string
-  @Input() workTitle! : string ;
-  @Input() companyName! : string;
-  @Input() workPeriodStart! : string;
-  @Input() workPeriodEnd! : string;
+  @Input() entryInfo! : TimelineEntry;
 }

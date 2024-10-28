@@ -1,8 +1,8 @@
-<div class="container row">
-    <img class="logoImg d-inline col-lg-4" src="{{logoPath}}" alt="{{companyName}}">
+<div class="container row p-0">
+    <img class="logoImg d-inline col-lg-4" src="{{entryInfo.logoPath}}" alt="{{entryInfo.companyName}}">
     <div class="col-lg-8 infoItems">
-        <p class="workTitle">{{workTitle}}</p>
-        <p class="companyName">{{companyName}}</p>
-        <p class="workPeriod">{{workPeriodStart}} — {{workPeriodEnd}}</p>
+        <p class="workTitle">{{entryInfo.title}}</p>
+        <p class="companyName">{{entryInfo.companyName}}</p>
+        <p class="workPeriod">{{entryInfo.periodStart}} — {{entryInfo.periodEnd}}</p>
     </div>
 </div>

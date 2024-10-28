@@ -4,14 +4,9 @@
     <li>- Lives in HU</li>
 </ul>
 <h2>Work History</h2>
-<ul>
-    <li><mw-timeline-item [logoPath]="'./assets/logos/exampleLogo.png'" [workTitle]="'Tools Engineer'" [companyName]="'Nemesys Games'" [workPeriodStart]="'2022 September'" [workPeriodEnd]="'2023 April'"></mw-timeline-item></li>
-    <li><mw-timeline-item [logoPath]="'./assets/logos/exampleLogo.png'" [workTitle]="'Tools Engineer'" [companyName]="'Zenimax Online Studios Hungary'" [workPeriodStart]="'2023 April'" [workPeriodEnd]="'Present'"></mw-timeline-item></li>
-</ul>
+<mw-timeline [timelineEntries]="workTimelineEntries"></mw-timeline>
 <h2>Education</h2>
-<ul>
-    <li><mw-timeline-item [logoPath]="'./assets/logos/exampleLogo.png'" [workTitle]="'Bsc/Bprof — Computer Science Operational Engineer'" [companyName]="'Budapest University of Technology and Economics'" [workPeriodStart]="'2019 September'" [workPeriodEnd]="'2022 June'"></mw-timeline-item></li>
-</ul>
+<mw-timeline [timelineEntries]="eduTimelineEntries"></mw-timeline>
 <h2>Links & Contact</h2>
 <ul>
     <li><a href="https://github.com/Bocko">Github</a></li>
