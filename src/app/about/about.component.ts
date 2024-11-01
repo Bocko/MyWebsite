@@ -11,26 +11,27 @@ import { TimelineComponent } from "../timeline/timeline.component";
 export class AboutComponent {
   workTimelineEntries = 
   [
+    
     {
-      logoPath: './assets/logos/exampleLogo.png',
-      title: 'Tools Engineer',
-      companyName: 'Nemesys Games',
-      periodStart: '2022 September',
-      periodEnd: '2023 April'
-    },
-    {
-      logoPath: './assets/logos/exampleLogo.png',
+      logoPath: './assets/logos/zos-logo.png',
       title: 'Tools Engineer',
       companyName: 'Zenimax Online Studios Hungary',
       periodStart: '2023 April',
       periodEnd: 'Present'
+    },
+    {
+      logoPath: './assets/logos/nms-logo.jpg',
+      title: 'Tools Engineer',
+      companyName: 'Nemesys Games',
+      periodStart: '2022 September',
+      periodEnd: '2023 April'
     }
   ];
 
   eduTimelineEntries = 
   [
     {
-      logoPath: './assets/logos/exampleLogo.png',
+      logoPath: './assets/logos/bme-logo.png',
       title: 'Tools Engineer',
       companyName: 'Nemesys Games',
       periodStart: '2022 September',

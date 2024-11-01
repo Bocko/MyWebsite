@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# image "db" files, this will be generated when building/starting
+img-list.json

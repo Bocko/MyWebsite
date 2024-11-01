@@ -17,10 +17,21 @@
 	--iconColor: #CC2936;
 }
 
-body{
+body
+{
     
     font-family: FuturaBold;
     color: var(--textColor);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    color: var(--iconColor);
 }
 
 a

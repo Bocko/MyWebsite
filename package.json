@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "prestart": "node ./src/generate-photo-db.js",
     "start": "ng serve",
     "build": "ng build",
+    "prebuild": "node ./src/generate-photo-db.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

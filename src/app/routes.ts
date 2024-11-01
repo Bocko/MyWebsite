@@ -19,6 +19,10 @@ const routeConfig: Routes = [
       component: ReposComponent,
       title: 'My Repositories',
     },
+    {
+      path: '**',
+      redirectTo : ''
+    }
   ];
 
 export default routeConfig;

@@ -1,0 +1,27 @@
+.search-container
+{
+    margin-bottom: 1rem;
+}
+
+h2
+{
+    margin: 1rem 0;
+}
+
+.img-responsive
+{
+    margin: 5px;
+    max-width: 18rem;
+    max-height: 10rem;
+}
+
+.img-responsive:hover
+{
+    cursor: pointer;
+}
+
+button
+{
+    color: var(--mainColor);
+    border-radius: 0rem .375rem .375rem 0rem;
+}
