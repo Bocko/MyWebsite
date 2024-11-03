@@ -42,4 +42,6 @@ testem.log
 Thumbs.db
 
 # image "db" files, this will be generated when building/starting
-img-list.json
+/public/assets/imgs/*/img-list.json
+
+/public/assets/imgs/*/thumbnail
