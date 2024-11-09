@@ -2,7 +2,7 @@ import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LightgalleryModule } from 'lightgallery/angular';
 import { PhotoHandlerService } from '../services/photo-handler.service';
-import { PhotoEntry } from '../interfaces/photo-entry';
+import { PhotoEntry, PhotoListEntry } from '../interfaces/photo-entry';
 import lgZoom from 'lightgallery/plugins/zoom';
 import lgHash from 'lightgallery/plugins/hash';
 import lgFullscreen from 'lightgallery/plugins/fullscreen';
@@ -18,10 +18,9 @@ import { LightGallery } from 'lightgallery/lightgallery';
 })
 export class GalleryComponent {
   photoHandler: PhotoHandlerService = inject(PhotoHandlerService);
-  planeSpottingEntries : PhotoEntry[] = [];
-  otherEntries : PhotoEntry[] = [];
+  galleryLists : PhotoListEntry[] = [];
 
-  planesGallery!: LightGallery;
+  galleries: LightGallery[] = [];
   othersGallery!: LightGallery;
   settings = {
     download: false,
@@ -31,40 +30,23 @@ export class GalleryComponent {
 
   constructor() 
   {
-    this.photoHandler.getPlaneEntries().then((planeSpottingEntries: PhotoEntry[]) => 
-      {
-        this.planeSpottingEntries = planeSpottingEntries;
-      });
-
-    this.photoHandler.getOtherEntries().then((otherEntries: PhotoEntry[]) => 
-      {
-        this.otherEntries = otherEntries;
-      });
+    this.photoHandler.getImageLists().then((galleryLists: PhotoListEntry[]) => 
+    {
+      this.galleryLists = galleryLists;
+    });
   }
 
-  onInitPlanes = (detail: InitDetail): void => {
-    this.planesGallery = detail.instance;
-    console.log("sima onInit");
-    this.refreshGallery();
+  onGalleryInit = (detail: InitDetail): void => {
+    console.log("onInit: " + detail.instance);
+    detail.instance.refresh();
+    this.galleries.push(detail.instance);
   };
 
-  onInitOthers = (detail: InitDetail): void => {
-    this.othersGallery = detail.instance;
-    console.log("sima onInit");
-    this.refreshGallery();
-  };
-
-  refreshGallery() 
+  refreshGalleries() 
   {
-    if (this.planesGallery != undefined)
+    this.galleries.forEach(gallery => 
     {
-      this.planesGallery.refresh();
-    }
-    
-    if (this.othersGallery != undefined)
-    {
-      this.othersGallery.refresh();
-    }
-    console.log("refreshed");    
+      gallery.refresh();
+    });
   }
 }

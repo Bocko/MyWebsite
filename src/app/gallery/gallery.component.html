@@ -3,48 +3,21 @@
         <div class="input-group">
             <input type="text" class="form-control" placeholder="Search...">
             <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" (click)="refreshGallery()">
+            <button class="btn btn-outline-secondary" type="button" (click)="refreshGalleries()">
                 <i class="fas fa-search"></i>
             </button>
             </div>
         </div>
     </div>
-    <div>
+    <div *ngFor="let gallery of galleryLists">
         <h2>
-            Plane Spotting
+            {{gallery.name}}
         </h2>
         <div>
-            <lightgallery [settings]="settings" [onInit]="onInitPlanes">
-                <a *ngFor="let image of planeSpottingEntries"
+            <lightgallery [settings]="settings" [onInit]="onGalleryInit">
+                <a *ngFor="let image of gallery.items"
                   class="gallery-item"
                   [attr.data-src]="image.path"
-                  attr.data-sub-html="
-                    <h4>
-                        Photo Name - {{image.name}}
-                    </h4> 
-                    <p> 
-                        Location - {{image.place}}
-                    </p>
-                    <p>
-                        Date - {{image.date}}
-                    </p>
-                    ">
-                  <img 
-                    class="img-responsive" 
-                    src="{{image.thumbnailPath}}" />
-                </a>
-            </lightgallery>
-        </div>
-    </div>
-    <div>
-        <h2>
-            Other
-        </h2>
-        <div class="gallery-center">
-            <lightgallery [settings]="settings" [onInit]="onInitOthers">
-                <a *ngFor="let image of otherEntries"
-                  class="gallery-item"
-                  attr.data-src="{{image.path}}"
                   attr.data-sub-html="
                     <h4>
                         Photo Name - {{image.name}}

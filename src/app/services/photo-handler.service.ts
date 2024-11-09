@@ -1,20 +1,14 @@
 import { Injectable } from '@angular/core';
-import { PhotoEntry } from '../interfaces/photo-entry';
+import { PhotoEntry, PhotoListEntry } from '../interfaces/photo-entry';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PhotoHandlerService 
 {
-  async getPlaneEntries(): Promise<PhotoEntry[]>
+  async getImageLists(): Promise<PhotoListEntry[]>
   {
-    const data = await fetch('/assets/imgs/planespotting/img-list.json');
-    return (await data.json()) ?? {};
-  }
-
-  async getOtherEntries(): Promise<PhotoEntry[]>
-  {
-    const data = await fetch('/assets/imgs/other/img-list.json');
+    const data = await fetch('/assets/imgs/img-list.json');
     return (await data.json()) ?? {};
   }
 }

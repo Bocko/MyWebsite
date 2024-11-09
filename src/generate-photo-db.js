@@ -7,17 +7,19 @@ const webPath = './assets/imgs/';
 const thumbnailFolder = "thumbnail";
 const outputFileName = 'img-list.json';
 
-function scanFolder(folder)
+function isValidImage(filePath)
+{
+    return !fs.statSync(filePath).isDirectory() && path.parse(filePath).ext != '.json';
+}
+
+function scanFolder(folderPath, folder)
 {
     let imgList = [];
 
-    const folderPath = path.join(fullPath, folder);
     fs.readdirSync(folderPath).forEach(item => {
-        const pathedItem = path.parse(item);
-        const originalPath = path.join(folderPath, item);
-
-        if (!fs.statSync(originalPath).isDirectory() && pathedItem.ext != '.json')
+        if (isValidImage(path.join(folderPath, item)))
         {
+            const pathedItem = path.parse(item);
             const itemSplit = pathedItem.name.split('_');
 
             let img = {};
@@ -31,30 +33,25 @@ function scanFolder(folder)
         }
     });
 
-    fs.writeFileSync(path.join(folderPath, outputFileName), JSON.stringify(imgList, null, 2));
+    return imgList
 }
 
-function generateThumbnails(folder)
+function generateThumbnails(folderPath)
 {
-    const folderPath = path.join(fullPath, folder);
     const thumbnailFolderPath = path.join(folderPath, thumbnailFolder);
 
-    if(!fs.existsSync(thumbnailFolderPath))
+    if (!fs.existsSync(thumbnailFolderPath))
     {
         console.log("Thumbnail Folder does not exist! Creating it now.");
         fs.mkdirSync(thumbnailFolderPath);
     }
 
     fs.readdirSync(folderPath).forEach(item => {
-        const pathedItem = path.parse(item);
         const originalPath = path.join(folderPath, item);
 
-        if (!fs.statSync(originalPath).isDirectory() && pathedItem.ext != '.json')
+        if (isValidImage(originalPath))
         {
             const thumbnailPath = path.join(thumbnailFolderPath, item);
-
-            console.log(originalPath);
-            console.log(thumbnailPath);
 
             if(!fs.existsSync(thumbnailPath))
             {
@@ -69,16 +66,44 @@ function generateThumbnails(folder)
     });
 }
 
-console.log('File lists generation started!');
+function scanFolders()
+{
+    let imgFolderList = [];
+    fs.readdirSync(fullPath).forEach(folder => {
+        if (fs.statSync(path.join(fullPath, folder)).isDirectory())
+        {
+            const folderItem = {};
+            folderItem.name = folder;
+    
+            const folderPath = path.join(fullPath, folder);
+    
+            console.log("Scanning folder for: " + folder);
+            folderItem.items = scanFolder(folderPath, folder);
+            console.log("Scanning done.");
+    
+            console.log("Generating thumbnails for: " + folder);
+            generateThumbnails(folderPath);
+            console.log("Thumbnail generation done.");
+    
+            imgFolderList.push(folderItem);
+        }
+    })
 
-scanFolder("planespotting");
-scanFolder("other");
+    imgFolderList.sort(function(x, y) {
+        if(x.items.length < y.items.length)
+        {
+            return 1;
+        }
+        
+        if(x.items.length > y.items.length)
+        {
+            return -1;
+        }
 
-console.log('File lists generated successfully!');
+        return 0;
+    });
 
-console.log('Thumbnail generation started!');
+    fs.writeFileSync(path.join(fullPath, outputFileName), JSON.stringify(imgFolderList, null, 2));
+}
 
-generateThumbnails("planespotting");
-generateThumbnails("other");
-
-console.log('Thumbnail generated successfully!');
+scanFolders();
