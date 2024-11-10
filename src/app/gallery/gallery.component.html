@@ -1,39 +1,65 @@
 <div>
     <div class="container search-container">
         <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search...">
+            <input type="text" class="form-control" placeholder="Search..." (keyup.enter)="filterGalleries(filter.value)" #filter>
             <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" (click)="refreshGalleries()">
+            <button class="btn btn-outline-secondary" type="button" (click)="filterGalleries(filter.value)">
                 <i class="fas fa-search"></i>
             </button>
             </div>
         </div>
     </div>
-    <div *ngFor="let gallery of galleryLists">
-        <h2>
-            {{gallery.name}}
-        </h2>
-        <div>
-            <lightgallery [settings]="settings" [onInit]="onGalleryInit">
-                <a *ngFor="let image of gallery.items"
-                  class="gallery-item"
-                  [attr.data-src]="image.path"
-                  attr.data-sub-html="
-                    <h4>
-                        Photo Name - {{image.name}}
-                    </h4> 
-                    <p> 
-                        Location - {{image.place}}
-                    </p>
-                    <p>
-                        Date - {{image.date}}
-                    </p>
-                    ">
-                  <img 
-                    class="img-responsive" 
-                    src="{{image.thumbnailPath}}" />
-                </a>
-            </lightgallery>
+    <div *ngFor="let gallery of filteredGalleryLists">
+        <div *ngIf="gallery.items.length > 0">
+            <h1 class="imgHeader">
+                {{gallery.name}}
+            </h1>
+            <div>
+                <lightgallery [settings]="settings" [onInit]="onGalleryInit">
+                    <a *ngFor="let image of gallery.items"
+                      class="gallery-item"
+                      [attr.data-src]="image.path"
+                      attr.data-sub-html="
+                        <h3>
+                            {{image.name}}
+                        </h3>
+                        <div class='d-flex justify-content-center'>
+                            <div class='mx-4 text-start'>
+                                <p>
+                                    <span>Location -</span> {{image.place}}
+                                </p>
+                                <p>
+                                    <span>Date -</span> {{image.date}}
+                                </p>
+                                <p>
+                                    <span>Camera -</span> {{image.cameraMaker}} {{image.cameraModel}}
+                                </p>
+                                <p>
+                                    <span>Lens -</span> {{image.lensMaker}} {{image.lensModel}}
+                                </p>
+                            </div>
+                            <div class='mx-4 text-start'>
+                                <p>
+                                    <span>ISO -</span> {{image.ISO}}
+                                </p>
+                                <p>
+                                    <span>f-Stop -</span> {{image.fStop}}
+                                </p>
+                                <p>
+                                    <span>Shutter Speed -</span> {{image.shutterSpeed}}
+                                </p>
+                                <p>
+                                    <span>Focal Length -</span> {{image.focalLength}}
+                                </p>
+                            </div>
+                        </div>
+                        ">
+                      <img
+                        class="img-responsive"
+                        src="{{image.thumbnailPath}}" />
+                    </a>
+                </lightgallery>
+            </div>
         </div>
     </div>
 </div>

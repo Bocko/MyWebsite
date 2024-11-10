@@ -1,6 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import sharp from 'sharp';
+import ExifReader from 'exifreader';
+import { log } from 'console';
 
 const fullPath = './public/assets/imgs/';
 const webPath = './assets/imgs/';
@@ -12,22 +14,36 @@ function isValidImage(filePath)
     return !fs.statSync(filePath).isDirectory() && path.parse(filePath).ext != '.json';
 }
 
-function scanFolder(folderPath, folder)
+ function scanFolder(folderPath, folder)
 {
     let imgList = [];
 
     fs.readdirSync(folderPath).forEach(item => {
-        if (isValidImage(path.join(folderPath, item)))
+        const originalPath = path.join(folderPath, item);
+        if (isValidImage(originalPath))
         {
             const pathedItem = path.parse(item);
             const itemSplit = pathedItem.name.split('_');
+
+            const exifTags = ExifReader.load(fs.readFileSync(originalPath));
 
             let img = {};
             img.path = path.join(webPath, folder, item);
             img.thumbnailPath = path.join(webPath, folder, thumbnailFolder, item);
             img.name = itemSplit[0];
             img.place = itemSplit[1];
-            img.date = itemSplit[2];
+
+            // from exif data
+
+            img.ISO = exifTags["ISOSpeedRatings"]?.description;
+            img.shutterSpeed = exifTags["ExposureTime"]?.description;
+            img.fStop = exifTags["FNumber"]?.description;
+            img.focalLength = exifTags["FocalLength"]?.description;
+            img.cameraMaker = exifTags["Make"]?.description;
+            img.cameraModel = exifTags["Model"]?.description;
+            img.lensMaker = exifTags["LensMake"]?.description;
+            img.lensModel = exifTags["LensModel"]?.description;
+            img.date = new Date(exifTags["CreateDate"]?.description).toLocaleString();
 
             imgList.push(img);
         }

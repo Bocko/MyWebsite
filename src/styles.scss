@@ -19,7 +19,6 @@
 
 body
 {
-    
     font-family: FuturaBold;
     color: var(--textColor);
 }
@@ -32,6 +31,11 @@ h5,
 h6
 {
     color: var(--iconColor);
+}
+
+span
+{
+    color: var(--mainColor) !important;
 }
 
 a

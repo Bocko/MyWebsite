@@ -19,6 +19,7 @@ import { LightGallery } from 'lightgallery/lightgallery';
 export class GalleryComponent {
   photoHandler: PhotoHandlerService = inject(PhotoHandlerService);
   galleryLists : PhotoListEntry[] = [];
+  filteredGalleryLists :  PhotoListEntry[] = [];
 
   galleries: LightGallery[] = [];
   othersGallery!: LightGallery;
@@ -33,11 +34,11 @@ export class GalleryComponent {
     this.photoHandler.getImageLists().then((galleryLists: PhotoListEntry[]) => 
     {
       this.galleryLists = galleryLists;
+      this.filteredGalleryLists = JSON.parse(JSON.stringify(this.galleryLists));
     });
   }
 
   onGalleryInit = (detail: InitDetail): void => {
-    console.log("onInit: " + detail.instance);
     detail.instance.refresh();
     this.galleries.push(detail.instance);
   };
@@ -48,5 +49,22 @@ export class GalleryComponent {
     {
       gallery.refresh();
     });
+  }
+
+  filterGalleries(text: string)
+  {
+    this.filteredGalleryLists = JSON.parse(JSON.stringify(this.galleryLists));
+
+    if (text)
+    {
+      for (let i : number = 0; i < this.filteredGalleryLists.length; i++)
+        {
+          this.filteredGalleryLists[i].items = this.filteredGalleryLists[i].items.filter((photoEntry) =>
+            photoEntry.name.toLowerCase().includes(text.toLowerCase()),
+          );
+        }
+    }
+
+    this.refreshGalleries();
   }
 }

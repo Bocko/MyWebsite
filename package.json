@@ -23,6 +23,7 @@
     "@ng-bootstrap/ng-bootstrap": "^17.0.1",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
+    "exifreader": "^4.25.0",
     "lightgallery": "^2.7.2",
     "rxjs": "~7.8.0",
     "sharp": "^0.33.5",

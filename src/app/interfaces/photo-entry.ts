@@ -4,9 +4,17 @@ export interface PhotoListEntry {
 }
 
 export interface PhotoEntry {
-    path : string;
+    path: string;
     thumbnailPath: string;
-    name : string;
-    place : string;
-    date : string;
+    name: string;
+    place: string;
+    ISO: number;
+    shutterSpeed: string;
+    fStop: string;
+    focalLength: string;
+    cameraMaker: string;
+    cameraModel: string;
+    lensMaker: string;
+    lensModel: string;
+    date: string;
 }

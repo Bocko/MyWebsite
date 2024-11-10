@@ -1,6 +1,6 @@
 .search-container
 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 h2
@@ -10,7 +10,7 @@ h2
 
 .img-responsive
 {
-    margin: 5px;
+    margin: .35rem;
     max-width: 18rem;
     max-height: 10rem;
 }
@@ -24,4 +24,10 @@ button
 {
     color: var(--mainColor);
     border-radius: 0rem .375rem .375rem 0rem;
+}
+
+.imgHeader
+{
+    text-align: center;
+    margin: 1rem 0;
 }
