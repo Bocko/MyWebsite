@@ -9,13 +9,13 @@
             </div>
         </div>
     </div>
-    <div *ngFor="let gallery of filteredGalleryLists">
+    <div *ngFor="let gallery of filteredGalleryLists; index as i">
         <div *ngIf="gallery.items.length > 0">
             <h1 class="imgHeader">
                 {{gallery.name}}
             </h1>
             <div>
-                <lightgallery [settings]="settings" [onInit]="onGalleryInit">
+                <lightgallery [settings]="gallerySettings[i]" [onInit]="onGalleryInit">
                     <a *ngFor="let image of gallery.items"
                       class="gallery-item"
                       [attr.data-src]="image.path"

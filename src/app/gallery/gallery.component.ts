@@ -1,8 +1,8 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LightgalleryModule } from 'lightgallery/angular';
+import { LightgalleryComponent, LightgalleryModule } from 'lightgallery/angular';
 import { PhotoHandlerService } from '../services/photo-handler.service';
-import { PhotoEntry, PhotoListEntry } from '../interfaces/photo-entry';
+import { PhotoListEntry } from '../interfaces/photo-entry';
 import lgZoom from 'lightgallery/plugins/zoom';
 import lgHash from 'lightgallery/plugins/hash';
 import lgFullscreen from 'lightgallery/plugins/fullscreen';
@@ -22,23 +22,39 @@ export class GalleryComponent {
   filteredGalleryLists :  PhotoListEntry[] = [];
 
   galleries: LightGallery[] = [];
+  gallerySettings: LightgalleryComponent["settings"][] = [];
   othersGallery!: LightGallery;
-  settings = {
-    download: false,
-    counter: true,
-    plugins: [lgZoom, lgHash, lgFullscreen]
-  };
 
   constructor() 
   {
     this.photoHandler.getImageLists().then((galleryLists: PhotoListEntry[]) => 
     {
       this.galleryLists = galleryLists;
+      this.createGallerySettings();
       this.filteredGalleryLists = JSON.parse(JSON.stringify(this.galleryLists));
     });
   }
 
+  createGallerySettings()
+  {
+    for (let i = 0; i < this.galleryLists.length; i++) {
+      const settings : LightgalleryComponent["settings"] = 
+      {
+        galleryId: i.toString(),
+        download: false,
+        counter: true,
+        infiniteZoom: true,
+        actualSize: false,
+        showZoomInOutIcons: true,
+        plugins: [lgZoom, lgHash, lgFullscreen]
+      };
+      
+      this.gallerySettings.push(settings);      
+    }
+  }
+
   onGalleryInit = (detail: InitDetail): void => {
+    detail.instance.settings.galleryId = this.galleries.length.toString();
     detail.instance.refresh();
     this.galleries.push(detail.instance);
   };
