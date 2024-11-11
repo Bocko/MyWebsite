@@ -18,7 +18,7 @@ main
 
 .nav-active
 {
-  color: var(--mainColor) !important;
+  color: var(--selectionColor) !important;
 }
 
 .nav-link
@@ -40,7 +40,7 @@ main
 
 .nav-link
 {
-  color: var(--selectionColor)
+  color: var(--mainColor)
 }
 
 nav div a:hover
