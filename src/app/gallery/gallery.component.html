@@ -15,7 +15,7 @@
                 {{gallery.name}}
             </h1>
             <div>
-                <lightgallery [settings]="gallerySettings[i]" [onInit]="onGalleryInit">
+                <lightgallery [settings]="gallerySettings[i]" [onInit]="onGalleryInit" class="center-items">
                     <a *ngFor="let image of gallery.items"
                       class="gallery-item"
                       [attr.data-src]="image.path"

@@ -31,3 +31,11 @@ button
     text-align: center;
     margin: 1rem 0;
 }
+
+.center-items
+{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-flow: row wrap;
+}
