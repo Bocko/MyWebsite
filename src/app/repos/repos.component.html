@@ -1,1 +1,25 @@
-<p>repos works!</p>
+<div class="container-fluid">
+    <div class="row">
+        <div *ngFor="let repo of repos" class="col-lg-6">
+            <div class="repo-item">
+                <div class="repo-header">
+                    <h5> <a [href]="repo.html_url">{{repo.name}} <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></h5>
+                    <div class="repo-star-fork-holder">
+                        <div class="repo-star-fork">
+                            <i class="fa-solid fa-star fa-sm"></i>
+                            <p class="m-0">{{repo.stargazers_count}}</p>
+                        </div>
+                        <div class="repo-star-fork">
+                            <i class="fa-solid fa-code-fork fa-sm ml-1"></i>
+                            <p class="m-0">{{repo.forks}}</p>
+                        </div>
+                    </div>
+                </div>
+                <p>{{repo.description}}</p>
+                <div class="topics">
+                    <p *ngFor="let topic of repo.topics" class="topic">{{topic}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
