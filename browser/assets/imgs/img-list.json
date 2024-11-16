@@ -1,0 +1,298 @@
+[
+  {
+    "name": "planespotting",
+    "items": [
+      {
+        "path": "assets/imgs/planespotting/0H-LXK_CargoDomb_20241021.jpg",
+        "thumbnailPath": "assets/imgs/planespotting/thumbnail/0H-LXK_CargoDomb_20241021.jpg",
+        "name": "0H-LXK",
+        "place": "CargoDomb",
+        "ISO": 100,
+        "shutterSpeed": "1/320",
+        "fStop": "f/10",
+        "focalLength": "158 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 11:09:59 AM"
+      },
+      {
+        "path": "assets/imgs/planespotting/605-HUNAF_CargoDomb_20241013.jpg",
+        "thumbnailPath": "assets/imgs/planespotting/thumbnail/605-HUNAF_CargoDomb_20241013.jpg",
+        "name": "605-HUNAF",
+        "place": "CargoDomb",
+        "ISO": 200,
+        "shutterSpeed": "1/200",
+        "fStop": "f/6.3",
+        "focalLength": "171 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/13/2024, 4:22:51 PM"
+      },
+      {
+        "path": "assets/imgs/planespotting/9H-WAG_CargoDomb_20241021.jpg",
+        "thumbnailPath": "assets/imgs/planespotting/thumbnail/9H-WAG_CargoDomb_20241021.jpg",
+        "name": "9H-WAG",
+        "place": "CargoDomb",
+        "ISO": 100,
+        "shutterSpeed": "1/400",
+        "fStop": "f/10",
+        "focalLength": "138 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 11:47:43 AM"
+      },
+      {
+        "path": "assets/imgs/planespotting/9H-WAS_CargoDomb_20241021.jpg",
+        "thumbnailPath": "assets/imgs/planespotting/thumbnail/9H-WAS_CargoDomb_20241021.jpg",
+        "name": "9H-WAS",
+        "place": "CargoDomb",
+        "ISO": 100,
+        "shutterSpeed": "1/320",
+        "fStop": "f/10",
+        "focalLength": "126 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 12:12:02 PM"
+      },
+      {
+        "path": "assets/imgs/planespotting/9H-WNB_CargoDomb_20241013.jpg",
+        "thumbnailPath": "assets/imgs/planespotting/thumbnail/9H-WNB_CargoDomb_20241013.jpg",
+        "name": "9H-WNB",
+        "place": "CargoDomb",
+        "ISO": 400,
+        "shutterSpeed": "1/400",
+        "fStop": "f/5.6",
+        "focalLength": "139 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/13/2024, 4:34:27 PM"
+      },
+      {
+        "path": "assets/imgs/planespotting/D-AAAY_CargoDomb_20241021.jpg",
+        "thumbnailPath": "assets/imgs/planespotting/thumbnail/D-AAAY_CargoDomb_20241021.jpg",
+        "name": "D-AAAY",
+        "place": "CargoDomb",
+        "ISO": 125,
+        "shutterSpeed": "1/200",
+        "fStop": "f/10",
+        "focalLength": "117 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 10:58:29 AM"
+      },
+      {
+        "path": "assets/imgs/planespotting/D-ACND_CargoDomb_20241013.png",
+        "thumbnailPath": "assets/imgs/planespotting/thumbnail/D-ACND_CargoDomb_20241013.png",
+        "name": "D-ACND",
+        "place": "CargoDomb",
+        "ISO": "500",
+        "shutterSpeed": "1/400",
+        "fStop": "f/5.6",
+        "focalLength": "127 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/13/2024, 4:31:45 PM"
+      },
+      {
+        "path": "assets/imgs/planespotting/OE-LNX_CargoDomb_20241013.jpg",
+        "thumbnailPath": "assets/imgs/planespotting/thumbnail/OE-LNX_CargoDomb_20241013.jpg",
+        "name": "OE-LNX",
+        "place": "CargoDomb",
+        "ISO": 640,
+        "shutterSpeed": "1/400",
+        "fStop": "f/5.6",
+        "focalLength": "96 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/13/2024, 4:37:13 PM"
+      },
+      {
+        "path": "assets/imgs/planespotting/SP-LIR_CargoDomb_20241013.jpg",
+        "thumbnailPath": "assets/imgs/planespotting/thumbnail/SP-LIR_CargoDomb_20241013.jpg",
+        "name": "SP-LIR",
+        "place": "CargoDomb",
+        "ISO": 640,
+        "shutterSpeed": "1/400",
+        "fStop": "f/5.6",
+        "focalLength": "123 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/13/2024, 4:49:28 PM"
+      }
+    ]
+  },
+  {
+    "name": "Landscape",
+    "items": [
+      {
+        "path": "assets/imgs/Landscape/Budai Dombok és Pest_Kertvárosi Kilátó.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Budai Dombok és Pest_Kertvárosi Kilátó.jpg",
+        "name": "Budai Dombok és Pest",
+        "place": "Kertvárosi Kilátó",
+        "ISO": 640,
+        "shutterSpeed": "1/100",
+        "fStop": "f/6.3",
+        "focalLength": "55 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/20/2024, 5:57:17 PM"
+      },
+      {
+        "path": "assets/imgs/Landscape/Budai Dombok_Kertvárosi Kilátó.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Budai Dombok_Kertvárosi Kilátó.jpg",
+        "name": "Budai Dombok",
+        "place": "Kertvárosi Kilátó",
+        "ISO": 320,
+        "shutterSpeed": "1/160",
+        "fStop": "f/6.3",
+        "focalLength": "99 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/20/2024, 5:53:11 PM"
+      },
+      {
+        "path": "assets/imgs/Landscape/Budai Dombok_Néprajzi Múzeum.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Budai Dombok_Néprajzi Múzeum.jpg",
+        "name": "Budai Dombok",
+        "place": "Néprajzi Múzeum",
+        "ISO": 3200,
+        "shutterSpeed": "1/10",
+        "fStop": "f/32",
+        "focalLength": "210 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/6/2024, 5:50:23 PM"
+      }
+    ]
+  },
+  {
+    "name": "Architecture",
+    "items": [
+      {
+        "path": "assets/imgs/Architecture/Néprajzi Múzeum_Városliget.jpg",
+        "thumbnailPath": "assets/imgs/Architecture/thumbnail/Néprajzi Múzeum_Városliget.jpg",
+        "name": "Néprajzi Múzeum",
+        "place": "Városliget",
+        "ISO": 320,
+        "shutterSpeed": "1/40",
+        "fStop": "f/8",
+        "focalLength": "55 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/6/2024, 5:29:06 PM"
+      },
+      {
+        "path": "assets/imgs/Architecture/Vajdahunyad Vára_Városliget.jpg",
+        "thumbnailPath": "assets/imgs/Architecture/thumbnail/Vajdahunyad Vára_Városliget.jpg",
+        "name": "Vajdahunyad Vára",
+        "place": "Városliget",
+        "ISO": 160,
+        "shutterSpeed": "1/80",
+        "fStop": "f/8",
+        "focalLength": "82 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/6/2024, 5:01:49 PM"
+      }
+    ]
+  },
+  {
+    "name": "Astro",
+    "items": [
+      {
+        "path": "assets/imgs/Astro/Moon_Kassai tér.jpg",
+        "thumbnailPath": "assets/imgs/Astro/thumbnail/Moon_Kassai tér.jpg",
+        "name": "Moon",
+        "place": "Kassai tér",
+        "ISO": 100,
+        "shutterSpeed": "1/80",
+        "fStop": "f/11",
+        "focalLength": "210 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/16/2024, 8:32:05 PM"
+      },
+      {
+        "path": "assets/imgs/Astro/Tsuchinshan-ATLAS_Kassai tér.jpg",
+        "thumbnailPath": "assets/imgs/Astro/thumbnail/Tsuchinshan-ATLAS_Kassai tér.jpg",
+        "name": "Tsuchinshan-ATLAS",
+        "place": "Kassai tér",
+        "ISO": 640,
+        "shutterSpeed": "5",
+        "fStop": "f/4.5",
+        "focalLength": "55 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/16/2024, 7:29:26 PM"
+      }
+    ]
+  },
+  {
+    "name": "Wildlife",
+    "items": [
+      {
+        "path": "assets/imgs/Wildlife/Szemetes Varjú_Városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Szemetes Varjú_Városliget.jpg",
+        "name": "Szemetes Varjú",
+        "place": "Városliget",
+        "ISO": 6400,
+        "shutterSpeed": "1/1600",
+        "fStop": "f/5.6",
+        "focalLength": "138 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/6/2024, 4:55:20 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Varjú_Városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Varjú_Városliget.jpg",
+        "name": "Varjú",
+        "place": "Városliget",
+        "ISO": 6400,
+        "shutterSpeed": "1/400",
+        "fStop": "f/6.3",
+        "focalLength": "210 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/6/2024, 4:51:01 PM"
+      }
+    ]
+  },
+  {
+    "name": "Street",
+    "items": [
+      {
+        "path": "assets/imgs/Street/Forgalom_Kassai tér.jpg",
+        "thumbnailPath": "assets/imgs/Street/thumbnail/Forgalom_Kassai tér.jpg",
+        "name": "Forgalom",
+        "place": "Kassai tér",
+        "ISO": 100,
+        "shutterSpeed": "30",
+        "fStop": "f/14",
+        "focalLength": "55 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/16/2024, 8:15:33 PM"
+      }
+    ]
+  }
+]
