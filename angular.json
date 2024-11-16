@@ -41,7 +41,7 @@
           "options": {
             "outputPath": "dist/mywebsite",
             "index": "src/index.html",
-            "browser": "src/main.ts",
+            "browser": "",
             "polyfills": [
               "zone.js",
               "@angular/localize/init"
