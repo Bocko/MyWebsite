@@ -39,9 +39,13 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/mywebsite",
+            "outputPath":
+            {
+              "base": "dist/mywebsite",
+              "browser": ""
+            },
             "index": "src/index.html",
-            "browser": "",
+            "browser": "src/main.ts",
             "polyfills": [
               "zone.js",
               "@angular/localize/init"
