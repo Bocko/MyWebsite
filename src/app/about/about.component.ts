@@ -32,10 +32,10 @@ export class AboutComponent {
   [
     {
       logoPath: './assets/logos/bme-logo.png',
-      title: 'Tools Engineer',
-      companyName: 'Nemesys Games',
-      periodStart: '2022 September',
-      periodEnd: '2023 April'
+      title: 'Bsc/Bprof — Computer Science Operational Engineer',
+      companyName: 'Budapest University of Technology and Economics',
+      periodStart: '22019 September',
+      periodEnd: '2022 June'
     }
   ];
 }
