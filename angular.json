@@ -53,10 +53,8 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              { "glob": "**/*", "input": "public" },
+              "src/404.html"
             ],
             "styles": [
               "src/styles.scss",
