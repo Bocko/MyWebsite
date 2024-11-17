@@ -6,7 +6,7 @@
     "ng": "ng",
     "prestart": "node ./src/generate-photo-db.js",
     "start": "ng serve",
-    "build": "ng build --prod --base-href='https://lgbotond.com'",
+    "build": "ng build --base-href='https://lgbotond.com'",
     "prebuild": "node ./src/generate-photo-db.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
