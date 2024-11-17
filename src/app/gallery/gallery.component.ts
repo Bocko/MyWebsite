@@ -1,4 +1,5 @@
 import { Component, inject } from '@angular/core';
+import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { LightgalleryComponent, LightgalleryModule } from 'lightgallery/angular';
 import { PhotoHandlerService } from '../services/photo-handler.service';
@@ -25,8 +26,14 @@ export class GalleryComponent {
   gallerySettings: LightgalleryComponent["settings"][] = [];
   othersGallery!: LightGallery;
 
-  constructor() 
+  constructor(private router: Router)
   {
+    let path = localStorage.getItem('path');
+    if(path) {
+      localStorage.removeItem('path');
+      this.router.navigate([path]);
+    }
+
     this.photoHandler.getImageLists().then((galleryLists: PhotoListEntry[]) => 
     {
       this.galleryLists = galleryLists;
