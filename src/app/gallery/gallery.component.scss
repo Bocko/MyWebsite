@@ -32,6 +32,11 @@ button
     margin: 1rem 0;
 }
 
+.imgHeader::first-letter
+{
+    text-transform: capitalize;
+}
+
 .center-items
 {
     display: flex !important;
