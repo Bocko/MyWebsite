@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { TimelineComponent } from "../timeline/timeline.component";
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'mw-about',
   standalone: true,
-  imports: [ TimelineComponent ],
+  imports: [ TimelineComponent, RouterModule ],
   templateUrl: './about.component.html',
   styleUrl: './about.component.scss'
 })
@@ -34,7 +35,7 @@ export class AboutComponent {
       logoPath: './assets/logos/bme-logo.png',
       title: 'Bsc/Bprof — Computer Science Operational Engineer',
       companyName: 'Budapest University of Technology and Economics',
-      periodStart: '22019 September',
+      periodStart: '2019 September',
       periodEnd: '2022 June'
     }
   ];

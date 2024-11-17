@@ -1,0 +1,9 @@
+.header
+{
+    text-align: center;
+}
+
+.header:not(:first-child)
+{
+    margin-top: 3rem;
+}
