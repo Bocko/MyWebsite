@@ -40,7 +40,7 @@ export class GalleryComponent {
     for (let i = 0; i < this.galleryLists.length; i++) {
       const settings : LightgalleryComponent["settings"] = 
       {
-        galleryId: i.toString(),
+        galleryId: this.galleryLists[i].name,
         download: false,
         counter: true,
         infiniteZoom: true,
