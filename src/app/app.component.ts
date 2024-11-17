@@ -13,9 +13,21 @@ export class AppComponent {
   constructor(private router: Router)
   {
     let path = localStorage.getItem('path');
-    if(path) {
+    let fragment = localStorage.getItem('fragment');
+    if (path)
+    {
+      console.log("Found Path In LocalStorage: " + path);
       localStorage.removeItem('path');
-      this.router.navigate([path]);
+      if (fragment)
+      {
+        console.log("Found Fragment In LocalStorage: " + fragment);
+        localStorage.removeItem('fragment');
+        this.router.navigate([path], { fragment: fragment });
+      }
+      else
+      {
+        this.router.navigate([path]);
+      }
     }
   }
 
