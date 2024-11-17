@@ -1,6 +1,11 @@
 <script>
     const path = window.location.pathname.slice(1);
+    const fragment = window.location.fragment.slice(1);
     localStorage.setItem('path', path);
+    if (fragment && fragment != "")
+    {
+        localStorage.setItem('fragment', fragment);
+    }
     window.location.href='../';
 </script>
 
