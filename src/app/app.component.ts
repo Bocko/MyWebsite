@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'mw-root',
@@ -10,5 +10,14 @@ import { RouterModule } from '@angular/router';
 })
 export class AppComponent {
   
+  constructor(private router: Router)
+  {
+    let path = localStorage.getItem('path');
+    if(path) {
+      localStorage.removeItem('path');
+      this.router.navigate([path]);
+    }
+  }
+
   year = new Date().getFullYear();
 }
