@@ -1,0 +1,14 @@
+<div class="container-fluid col-lg-5">
+    <div class="header">
+        <img src="assets/logos/bgl-logo.png" alt="BGL Logo" class="logo">
+        <h2>Botond László</h2>
+    </div>
+    <div>
+        <a *ngFor="let link of links" [href]="link.link" style="display: block;">
+            <div  class="linkButton" [ngStyle]="{'background-color' : link.color}">
+                <i [ngStyle]="{'color' : link.logoColor}" [ngClass]="link.icon"></i>
+                <span [ngStyle]="{'color' : link.textColor}">{{link.name}}</span>
+            </div>
+        </a>
+    </div>
+</div>

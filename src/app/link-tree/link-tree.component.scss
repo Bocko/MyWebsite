@@ -1,0 +1,34 @@
+.header
+{
+    text-align: center;
+    border-bottom: .125rem solid var(--backgroundColor);
+}
+
+.logo
+{
+    height: 10rem;
+    padding: 2rem;
+    background-color: black;
+    border: .125rem solid white;
+    margin: 1rem;
+}
+
+.linkButton
+{
+
+    border-radius: .75rem;
+    font-size: 2rem;
+    padding: .5rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+a
+{    
+    text-decoration: none !important;
+}
+
+span
+{
+    margin-left: .5rem;
+}
