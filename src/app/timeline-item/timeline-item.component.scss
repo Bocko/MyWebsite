@@ -8,13 +8,15 @@ p
     width: 6rem;
     height: 6rem;
     overflow: hidden;
-    padding: 0rem;
+    padding: 0;
+    margin-right: 1rem;
     border-radius: .25rem;
 }
 
 .infoItems
 {
-    margin: auto 0rem;
+    margin: auto 0;
+    padding: 0;
 }
 
 .companyName
