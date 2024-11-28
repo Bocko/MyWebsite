@@ -3,8 +3,8 @@
     "name": "Planespotting",
     "items": [
       {
-        "path": "assets/imgs/Planespotting/0H-LXK_CargoDomb_20241021.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/0H-LXK_CargoDomb_20241021.jpg",
+        "path": "assets/imgs/Planespotting/0H-LXK_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/0H-LXK_CargoDomb.jpg",
         "name": "0H-LXK",
         "place": "CargoDomb",
         "ISO": 100,
@@ -17,8 +17,8 @@
         "date": "10/21/2024, 11:09:59 AM"
       },
       {
-        "path": "assets/imgs/Planespotting/605-HUNAF_CargoDomb_20241013.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/605-HUNAF_CargoDomb_20241013.jpg",
+        "path": "assets/imgs/Planespotting/605-HUNAF_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/605-HUNAF_CargoDomb.jpg",
         "name": "605-HUNAF",
         "place": "CargoDomb",
         "ISO": 200,
@@ -31,8 +31,8 @@
         "date": "10/13/2024, 4:22:51 PM"
       },
       {
-        "path": "assets/imgs/Planespotting/9H-WAG_CargoDomb_20241021.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WAG_CargoDomb_20241021.jpg",
+        "path": "assets/imgs/Planespotting/9H-WAG_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WAG_CargoDomb.jpg",
         "name": "9H-WAG",
         "place": "CargoDomb",
         "ISO": 100,
@@ -45,8 +45,8 @@
         "date": "10/21/2024, 11:47:43 AM"
       },
       {
-        "path": "assets/imgs/Planespotting/9H-WAS_CargoDomb_20241021.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WAS_CargoDomb_20241021.jpg",
+        "path": "assets/imgs/Planespotting/9H-WAS_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WAS_CargoDomb.jpg",
         "name": "9H-WAS",
         "place": "CargoDomb",
         "ISO": 100,
@@ -59,8 +59,8 @@
         "date": "10/21/2024, 12:12:02 PM"
       },
       {
-        "path": "assets/imgs/Planespotting/9H-WNB_CargoDomb_20241013.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WNB_CargoDomb_20241013.jpg",
+        "path": "assets/imgs/Planespotting/9H-WNB_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WNB_CargoDomb.jpg",
         "name": "9H-WNB",
         "place": "CargoDomb",
         "ISO": 400,
@@ -73,8 +73,22 @@
         "date": "10/13/2024, 4:34:27 PM"
       },
       {
-        "path": "assets/imgs/Planespotting/D-AAAY_CargoDomb_20241021.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/D-AAAY_CargoDomb_20241021.jpg",
+        "path": "assets/imgs/Planespotting/B-2461_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/B-2461_CargoDomb.jpg",
+        "name": "B-2461",
+        "place": "CargoDomb",
+        "ISO": 400,
+        "shutterSpeed": "1/250",
+        "fStop": "f/11",
+        "focalLength": "178 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "11/24/2024, 3:14:48 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/D-AAAY_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/D-AAAY_CargoDomb.jpg",
         "name": "D-AAAY",
         "place": "CargoDomb",
         "ISO": 125,
@@ -157,8 +171,92 @@
         "date": "10/21/2024, 11:39:39 AM"
       },
       {
-        "path": "assets/imgs/Planespotting/OE-LNX_CargoDomb_20241013.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/OE-LNX_CargoDomb_20241013.jpg",
+        "path": "assets/imgs/Planespotting/HA-LHU_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LHU_CargoDomb.jpg",
+        "name": "HA-LHU",
+        "place": "CargoDomb",
+        "ISO": 100,
+        "shutterSpeed": "1/320",
+        "fStop": "f/11",
+        "focalLength": "85 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 12:01:29 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/HA-LVI_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LVI_CargoDomb.jpg",
+        "name": "HA-LVI",
+        "place": "CargoDomb",
+        "ISO": 100,
+        "shutterSpeed": "1/250",
+        "fStop": "f/9",
+        "focalLength": "116 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 11:06:22 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/HA-LXV_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LXV_CargoDomb.jpg",
+        "name": "HA-LXV",
+        "place": "CargoDomb",
+        "ISO": 100,
+        "shutterSpeed": "1/400",
+        "fStop": "f/10",
+        "focalLength": "130 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 12:14:35 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/HA-LZL_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LZL_CargoDomb.jpg",
+        "name": "HA-LZL",
+        "place": "CargoDomb",
+        "ISO": 100,
+        "shutterSpeed": "1/200",
+        "fStop": "f/11",
+        "focalLength": "120 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 11:29:28 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/LN-NIG_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/LN-NIG_CargoDomb.jpg",
+        "name": "LN-NIG",
+        "place": "CargoDomb",
+        "ISO": 100,
+        "shutterSpeed": "1/320",
+        "fStop": "f/10",
+        "focalLength": "120 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 12:06:21 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/LX-MIC_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/LX-MIC_CargoDomb.jpg",
+        "name": "LX-MIC",
+        "place": "CargoDomb",
+        "ISO": 125,
+        "shutterSpeed": "1/320",
+        "fStop": "f/10",
+        "focalLength": "174 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 12:09:23 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/OE-LNX_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/OE-LNX_CargoDomb.jpg",
         "name": "OE-LNX",
         "place": "CargoDomb",
         "ISO": 640,
@@ -171,8 +269,8 @@
         "date": "10/13/2024, 4:37:13 PM"
       },
       {
-        "path": "assets/imgs/Planespotting/SP-LIR_CargoDomb_20241013.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-LIR_CargoDomb_20241013.jpg",
+        "path": "assets/imgs/Planespotting/SP-LIR_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-LIR_CargoDomb.jpg",
         "name": "SP-LIR",
         "place": "CargoDomb",
         "ISO": 640,
@@ -183,6 +281,48 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/13/2024, 4:49:28 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/SP-RKT_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RKT_CargoDomb.jpg",
+        "name": "SP-RKT",
+        "place": "CargoDomb",
+        "ISO": 125,
+        "shutterSpeed": "1/250",
+        "fStop": "f/11",
+        "focalLength": "136 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 11:12:13 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/SP-RKY_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RKY_CargoDomb.jpg",
+        "name": "SP-RKY",
+        "place": "CargoDomb",
+        "ISO": 100,
+        "shutterSpeed": "1/500",
+        "fStop": "f/8",
+        "focalLength": "94 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 11:00:20 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/SP-RZN_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RZN_CargoDomb.jpg",
+        "name": "SP-RZN",
+        "place": "CargoDomb",
+        "ISO": 100,
+        "shutterSpeed": "1/250",
+        "fStop": "f/10",
+        "focalLength": "142 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/21/2024, 12:29:33 PM"
       },
       {
         "path": "assets/imgs/Planespotting/TC-SOE_CargoDomb.jpg",
