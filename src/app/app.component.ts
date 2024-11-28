@@ -1,16 +1,30 @@
 import { Component } from '@angular/core';
-import { Router, RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { NavigationEnd, Router, RouterModule } from '@angular/router';
+import { filter } from 'rxjs';
 
 @Component({
   selector: 'mw-root',
   standalone: true,
-  imports: [RouterModule],
+  imports: [ RouterModule, CommonModule ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   
+  year = new Date().getFullYear();
+  showShell = true;
+
+  i = 0;
+
   constructor(private router: Router)
+  {
+    router.events.pipe(filter(event => event instanceof NavigationEnd)).subscribe((event: NavigationEnd) => {
+      this.onRouterNavEndEvent(event.url);
+    });
+  }
+
+  ngOnInit(): void
   {
     let path = localStorage.getItem('path');
     let fragment = localStorage.getItem('fragment');
@@ -31,5 +45,8 @@ export class AppComponent {
     }
   }
 
-  year = new Date().getFullYear();
+  onRouterNavEndEvent(url: string)
+  {
+    this.showShell = (url != "/linktree");
+  }
 }

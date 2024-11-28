@@ -1,4 +1,4 @@
-<div class="navibar">
+<div class="navibar" *ngIf="showShell">
   <nav class="container-fluid col-lg-6">
     <div class=" row">
         <a class="col-lg-4 nav-link" [routerLink]="['/']" [routerLinkActiveOptions]="{exact: true}" [routerLinkActive]="['nav-active']">About</a>
@@ -8,15 +8,15 @@
   </nav>
 </div>
 
-<div class="spacer"></div>
+<div class="spacer" *ngIf="showShell"></div>
 
 <main>
   <router-outlet></router-outlet>
 </main>
 
-<div class="spacer"></div>
+<div class="spacer" *ngIf="showShell"></div>
 
-<footer class="footer">
+<footer class="footer" *ngIf="showShell">
   <div class="d-flex justify-content-between container col-lg-6 p-0">
 
     <div class="yearText">

@@ -1,3 +1,9 @@
+.outer
+{
+    height: 100vh;
+    margin: auto;
+}
+
 .header
 {
     text-align: center;
@@ -10,15 +16,14 @@
     padding: 2rem;
     background-color: black;
     border: .125rem solid white;
-    margin: 1rem;
+    margin: 0rem 1rem 1rem 1rem;
+    cursor: pointer;
 }
 
 .linkButton
 {
-
     border-radius: .75rem;
-    font-size: 2rem;
-    padding: .5rem;
+    font-size: 1.75rem;
     margin: 1rem 0;
     text-align: center;
 }
