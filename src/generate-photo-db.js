@@ -2,7 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import sharp from 'sharp';
 import ExifReader from 'exifreader';
-import { log } from 'console';
+import latinize from 'latinize';
+
 
 const fullPath = './public/assets/imgs/';
 const webPath = './assets/imgs/';
@@ -31,6 +32,7 @@ function isValidImage(filePath)
             img.path = path.join(webPath, folder, item);
             img.thumbnailPath = path.join(webPath, folder, thumbnailFolder, item);
             img.name = itemSplit[0];
+            img.slideName = latinize(itemSplit[0].replaceAll(" ", "-").toLowerCase());
             img.place = itemSplit[1];
 
             // from exif data

@@ -46,6 +46,7 @@ export class GalleryComponent {
         infiniteZoom: true,
         actualSize: false,
         showZoomInOutIcons: true,
+        customSlideName: true,
         plugins: [lgZoom, lgHash, lgFullscreen]
       };
       

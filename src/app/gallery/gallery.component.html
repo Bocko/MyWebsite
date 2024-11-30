@@ -19,6 +19,7 @@
                     <a *ngFor="let image of gallery.items"
                       class="gallery-item"
                       [attr.data-src]="image.path"
+                      [attr.data-slide-name]="image.slideName"
                       attr.data-sub-html="
                         <h3>
                             {{image.name}}
