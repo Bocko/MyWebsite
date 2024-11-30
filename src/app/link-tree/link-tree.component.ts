@@ -33,9 +33,9 @@ export class LinkTreeComponent {
       name: "Email",
       link: "mailto:lgbotond@gmail.com",
       icon: "fa-regular fa-envelope",
-      color: "#e5e4e2",
+      color: "#d44638",
       textColor: "#282828",
-      logoColor: "#d44638"
+      logoColor: "#e5e4e2"
     },
     {
       name: "Twitch",
