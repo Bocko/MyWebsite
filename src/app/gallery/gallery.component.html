@@ -10,10 +10,13 @@
         </div>
     </div>
     <div *ngFor="let gallery of filteredGalleryLists; index as i">
-        <div *ngIf="gallery.items.length > 0">
-            <h1 class="imgHeader">
-                {{gallery.name}}
-            </h1>
+        <details *ngIf="gallery.items.length > 0">
+            <summary>
+                <span class="details-marker">⯈</span>
+                <h2 class="imgHeader">
+                    {{gallery.name}}
+                </h2>
+            </summary>
             <div>
                 <lightgallery [settings]="gallerySettings[i]" [onInit]="onGalleryInit" class="center-items">
                     <a *ngFor="let image of gallery.items"
@@ -65,6 +68,6 @@
                     </a>
                 </lightgallery>
             </div>
-        </div>
+        </details>
     </div>
 </div>

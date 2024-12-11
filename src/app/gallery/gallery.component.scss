@@ -28,8 +28,10 @@ button
 
 .imgHeader
 {
+    font-size: 2.25rem;
+    margin: .5rem auto;
+    color: var(--iconColor);
     text-align: center;
-    margin: 1rem 0;
 }
 
 .imgHeader::first-letter
@@ -43,4 +45,28 @@ button
     justify-content: center !important;
     align-items: center !important;
     flex-flow: row wrap;
+}
+
+.details-marker
+{
+    margin: auto 0;
+    font-size: 1.5rem;
+}
+
+summary
+{
+    display: flex;
+}
+
+details
+{
+    color: var(--mainColor);
+}
+
+details[open]
+{
+    & summary span
+    {
+      transform: rotate(-90deg);
+    }
 }
