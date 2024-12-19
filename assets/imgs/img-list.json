@@ -33,6 +33,36 @@
         "date": "11/24/2024, 2:26:11 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/4X-ABY_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/4X-ABY_CargoDomb.jpg",
+        "name": "4X-ABY",
+        "slideName": "4x-aby",
+        "place": "CargoDomb",
+        "ISO": 250,
+        "shutterSpeed": "1/500",
+        "fStop": "f/11",
+        "focalLength": "233 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 1:46:42 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/605-HUNAF-2_20241218_1215px.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/605-HUNAF-2_20241218_1215px.jpg",
+        "name": "605-HUNAF-2",
+        "slideName": "605-hunaf-2",
+        "place": "20241218",
+        "ISO": 400,
+        "shutterSpeed": "1/500",
+        "fStop": "f/11",
+        "focalLength": "170 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 2:09:33 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/605-HUNAF_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/605-HUNAF_CargoDomb.jpg",
         "name": "605-HUNAF",
@@ -76,6 +106,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "11/24/2024, 2:45:22 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/9H-ISM_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-ISM_CargoDomb.jpg",
+        "name": "9H-ISM",
+        "slideName": "9h-ism",
+        "place": "CargoDomb",
+        "ISO": 160,
+        "shutterSpeed": "1/500",
+        "fStop": "f/11",
+        "focalLength": "130 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 12:09:34 PM"
       },
       {
         "path": "assets/imgs/Planespotting/9H-QCA_CargoDomb.jpg",
@@ -153,19 +198,34 @@
         "date": "10/26/2024, 12:31:35 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/9H-WDF_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WDF_CargoDomb.jpg",
+        "name": "9H-WDF",
+        "slideName": "9h-wdf",
+        "place": "CargoDomb",
+        "ISO": 200,
+        "shutterSpeed": "1/500",
+        "fStop": "f/11",
+        "focalLength": "163 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 2:03:18 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/9H-WDS_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WDS_CargoDomb.jpg",
         "name": "9H-WDS",
         "slideName": "9h-wds",
         "place": "CargoDomb",
-        "ISO": 125,
-        "shutterSpeed": "1/250",
+        "ISO": 320,
+        "shutterSpeed": "1/640",
         "fStop": "f/11",
-        "focalLength": "130 mm",
+        "focalLength": "177 mm",
         "cameraMaker": "SONY",
         "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "11/3/2024, 10:38:01 AM"
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 1:11:25 PM"
       },
       {
         "path": "assets/imgs/Planespotting/9H-WDX_CargoDomb.jpg",
@@ -226,6 +286,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "11/3/2024, 10:26:47 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/9H-WNR_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WNR_CargoDomb.jpg",
+        "name": "9H-WNR",
+        "slideName": "9h-wnr",
+        "place": "CargoDomb",
+        "ISO": 320,
+        "shutterSpeed": "1/500",
+        "fStop": "f/11",
+        "focalLength": "186 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 2:06:47 PM"
       },
       {
         "path": "assets/imgs/Planespotting/A4O-DH_CargoDomb.jpg",
@@ -331,6 +406,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/26/2024, 12:04:35 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/B-22IF_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/B-22IF_CargoDomb.jpg",
+        "name": "B-22IF",
+        "slideName": "b-22if",
+        "place": "CargoDomb",
+        "ISO": 160,
+        "shutterSpeed": "1/500",
+        "fStop": "f/10",
+        "focalLength": "149 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 12:32:44 PM"
       },
       {
         "path": "assets/imgs/Planespotting/B-2461_CargoDomb.jpg",
@@ -618,10 +708,10 @@
         "date": "10/26/2024, 12:53:16 PM"
       },
       {
-        "path": "assets/imgs/Planespotting/EI-IJT&SP-RZI_CargoDomb.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/EI-IJT&SP-RZI_CargoDomb.jpg",
-        "name": "EI-IJT&SP-RZI",
-        "slideName": "ei-ijt&sp-rzi",
+        "path": "assets/imgs/Planespotting/EI-IJT and SP-RZI_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/EI-IJT and SP-RZI_CargoDomb.jpg",
+        "name": "EI-IJT and SP-RZI",
+        "slideName": "ei-ijt-and-sp-rzi",
         "place": "CargoDomb",
         "ISO": 200,
         "shutterSpeed": "1/250",
@@ -768,6 +858,21 @@
         "date": "11/24/2024, 3:07:55 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/HA-LGO_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LGO_CargoDomb.jpg",
+        "name": "HA-LGO",
+        "slideName": "ha-lgo",
+        "place": "CargoDomb",
+        "ISO": 500,
+        "shutterSpeed": "1/800",
+        "fStop": "f/11",
+        "focalLength": "121 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 1:09:44 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/HA-LGP_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LGP_CargoDomb.jpg",
         "name": "HA-LGP",
@@ -909,13 +1014,13 @@
         "slideName": "ha-lzm",
         "place": "CargoDomb",
         "ISO": 250,
-        "shutterSpeed": "1/250",
+        "shutterSpeed": "1/500",
         "fStop": "f/11",
-        "focalLength": "141 mm",
+        "focalLength": "139 mm",
         "cameraMaker": "SONY",
         "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "10/26/2024, 12:13:04 PM"
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 12:20:20 PM"
       },
       {
         "path": "assets/imgs/Planespotting/HA-LZW_CargoDomb.jpg",
@@ -923,14 +1028,14 @@
         "name": "HA-LZW",
         "slideName": "ha-lzw",
         "place": "CargoDomb",
-        "ISO": 160,
-        "shutterSpeed": "1/200",
+        "ISO": 250,
+        "shutterSpeed": "1/500",
         "fStop": "f/11",
-        "focalLength": "155 mm",
+        "focalLength": "134 mm",
         "cameraMaker": "SONY",
         "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "10/26/2024, 2:04:47 PM"
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 12:26:57 PM"
       },
       {
         "path": "assets/imgs/Planespotting/HA-SCW_CargoDomb.jpg",
@@ -1098,6 +1203,21 @@
         "date": "10/26/2024, 12:49:23 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/LZ-FON_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/LZ-FON_CargoDomb.jpg",
+        "name": "LZ-FON",
+        "slideName": "lz-fon",
+        "place": "CargoDomb",
+        "ISO": 400,
+        "shutterSpeed": "1/500",
+        "fStop": "f/11",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 1:23:31 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/LZ-LAK_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/LZ-LAK_CargoDomb.jpg",
         "name": "LZ-LAK",
@@ -1263,6 +1383,21 @@
         "date": "10/26/2024, 11:18:26 AM"
       },
       {
+        "path": "assets/imgs/Planespotting/PH-BXK_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/PH-BXK_CargoDomb.jpg",
+        "name": "PH-BXK",
+        "slideName": "ph-bxk",
+        "place": "CargoDomb",
+        "ISO": 250,
+        "shutterSpeed": "1/500",
+        "fStop": "f/11",
+        "focalLength": "153 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 1:05:12 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/PH-EZW_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/PH-EZW_CargoDomb.jpg",
         "name": "PH-EZW",
@@ -1306,6 +1441,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "11/3/2024, 10:19:53 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/SE-RYC_CargoDomb.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SE-RYC_CargoDomb.jpg",
+        "name": "SE-RYC",
+        "slideName": "se-ryc",
+        "place": "CargoDomb",
+        "ISO": 250,
+        "shutterSpeed": "1/500",
+        "fStop": "f/11",
+        "focalLength": "186 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/18/2024, 2:11:36 PM"
       },
       {
         "path": "assets/imgs/Planespotting/SP-LGI_CargoDomb.jpg",
@@ -1865,6 +2015,131 @@
     ]
   },
   {
+    "name": "Wildlife",
+    "items": [
+      {
+        "path": "assets/imgs/Wildlife/Ferihegyi Varjú_Cargo Domb.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Ferihegyi Varjú_Cargo Domb.jpg",
+        "name": "Ferihegyi Varjú",
+        "slideName": "ferihegyi-varju",
+        "place": "Cargo Domb",
+        "ISO": 3200,
+        "shutterSpeed": "1/400",
+        "fStop": "f/11",
+        "focalLength": "210 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "11/24/2024, 2:05:20 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Galab_városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Galab_városliget.jpg",
+        "name": "Galab",
+        "slideName": "galab",
+        "place": "városliget",
+        "ISO": 500,
+        "shutterSpeed": "1/320",
+        "fStop": "f/6.3",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/16/2024, 1:42:58 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Madár1_városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Madár1_városliget.jpg",
+        "name": "Madár1",
+        "slideName": "madar1",
+        "place": "városliget",
+        "ISO": 800,
+        "shutterSpeed": "1/320",
+        "fStop": "f/6.3",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/16/2024, 1:27:28 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Madár2_városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Madár2_városliget.jpg",
+        "name": "Madár2",
+        "slideName": "madar2",
+        "place": "városliget",
+        "ISO": 800,
+        "shutterSpeed": "1/500",
+        "fStop": "f/6.3",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/16/2024, 2:23:37 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Madár3_városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Madár3_városliget.jpg",
+        "name": "Madár3",
+        "slideName": "madar3",
+        "place": "városliget",
+        "ISO": 1250,
+        "shutterSpeed": "1/500",
+        "fStop": "f/6.3",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/16/2024, 1:16:04 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Madár4_városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Madár4_városliget.jpg",
+        "name": "Madár4",
+        "slideName": "madar4",
+        "place": "városliget",
+        "ISO": 250,
+        "shutterSpeed": "1/320",
+        "fStop": "f/6.3",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/16/2024, 1:46:01 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Szemetes Varjú_Városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Szemetes Varjú_Városliget.jpg",
+        "name": "Szemetes Varjú",
+        "slideName": "szemetes-varju",
+        "place": "Városliget",
+        "ISO": 6400,
+        "shutterSpeed": "1/1600",
+        "fStop": "f/5.6",
+        "focalLength": "138 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/6/2024, 4:55:20 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Varjú_Városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Varjú_Városliget.jpg",
+        "name": "Varjú",
+        "slideName": "varju",
+        "place": "Városliget",
+        "ISO": 6400,
+        "shutterSpeed": "1/400",
+        "fStop": "f/6.3",
+        "focalLength": "210 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/6/2024, 4:51:01 PM"
+      }
+    ]
+  },
+  {
     "name": "Architecture",
     "items": [
       {
@@ -2051,62 +2326,72 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E PZ 16-50mm F3.5-5.6 OSS",
         "date": "11/22/2024, 7:24:28 AM"
-      }
-    ]
-  },
-  {
-    "name": "Wildlife",
-    "items": [
-      {
-        "path": "assets/imgs/Wildlife/Ferihegyi Varjú_Cargo Domb.jpg",
-        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Ferihegyi Varjú_Cargo Domb.jpg",
-        "name": "Ferihegyi Varjú",
-        "slideName": "ferihegyi-varju",
-        "place": "Cargo Domb",
-        "ISO": 3200,
-        "shutterSpeed": "1/400",
-        "fStop": "f/11",
-        "focalLength": "210 mm",
-        "cameraMaker": "SONY",
-        "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "11/24/2024, 2:05:20 PM"
       },
       {
-        "path": "assets/imgs/Wildlife/Szemetes Varjú_Városliget.jpg",
-        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Szemetes Varjú_Városliget.jpg",
-        "name": "Szemetes Varjú",
-        "slideName": "szemetes-varju",
+        "path": "assets/imgs/Landscape/Vajda Hunyad Vára fahíd_Városliget.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Vajda Hunyad Vára fahíd_Városliget.jpg",
+        "name": "Vajda Hunyad Vára fahíd",
+        "slideName": "vajda-hunyad-vara-fahid",
         "place": "Városliget",
-        "ISO": 6400,
-        "shutterSpeed": "1/1600",
-        "fStop": "f/5.6",
-        "focalLength": "138 mm",
+        "ISO": 320,
+        "shutterSpeed": "1/125",
+        "fStop": "f/4.5",
+        "focalLength": "70 mm",
         "cameraMaker": "SONY",
         "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "10/6/2024, 4:55:20 PM"
-      },
-      {
-        "path": "assets/imgs/Wildlife/Varjú_Városliget.jpg",
-        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Varjú_Városliget.jpg",
-        "name": "Varjú",
-        "slideName": "varju",
-        "place": "Városliget",
-        "ISO": 6400,
-        "shutterSpeed": "1/400",
-        "fStop": "f/6.3",
-        "focalLength": "210 mm",
-        "cameraMaker": "SONY",
-        "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "10/6/2024, 4:51:01 PM"
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/16/2024, 2:13:24 PM"
       }
     ]
   },
   {
     "name": "Astro",
     "items": [
+      {
+        "path": "assets/imgs/Astro/Callisto, (Europa Over Jupiter), Jupiter, Io and Ganymede_Kert.jpg",
+        "thumbnailPath": "assets/imgs/Astro/thumbnail/Callisto, (Europa Over Jupiter), Jupiter, Io and Ganymede_Kert.jpg",
+        "name": "Callisto, (Europa Over Jupiter), Jupiter, Io and Ganymede",
+        "slideName": "callisto,-(europa-over-jupiter),-jupiter,-io-and-ganymede",
+        "place": "Kert",
+        "ISO": 100,
+        "shutterSpeed": "0.3",
+        "fStop": "f/6.3",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/16/2024, 8:08:33 PM"
+      },
+      {
+        "path": "assets/imgs/Astro/Jupiter(Kinda)_Kert.jpg",
+        "thumbnailPath": "assets/imgs/Astro/thumbnail/Jupiter(Kinda)_Kert.jpg",
+        "name": "Jupiter(Kinda)",
+        "slideName": "jupiter(kinda)",
+        "place": "Kert",
+        "ISO": 100,
+        "shutterSpeed": "1/30",
+        "fStop": "f/11",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/16/2024, 8:21:52 PM"
+      },
+      {
+        "path": "assets/imgs/Astro/Luna_Kert.jpg",
+        "thumbnailPath": "assets/imgs/Astro/thumbnail/Luna_Kert.jpg",
+        "name": "Luna",
+        "slideName": "luna",
+        "place": "Kert",
+        "ISO": 100,
+        "shutterSpeed": "1/25",
+        "fStop": "f/11",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/16/2024, 7:48:21 PM"
+      },
       {
         "path": "assets/imgs/Astro/Moon_Kassai tér.jpg",
         "thumbnailPath": "assets/imgs/Astro/thumbnail/Moon_Kassai tér.jpg",
