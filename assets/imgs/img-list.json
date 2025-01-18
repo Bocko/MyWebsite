@@ -48,6 +48,21 @@
         "date": "12/18/2024, 1:46:42 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/5B-DDN_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/5B-DDN_SpotterDomb2.jpg",
+        "name": "5B-DDN",
+        "slideName": "5b-ddn",
+        "place": "SpotterDomb2",
+        "ISO": 250,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "203 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 12:43:32 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/605-HUNAF-2_20241218_1215px.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/605-HUNAF-2_20241218_1215px.jpg",
         "name": "605-HUNAF-2",
@@ -91,6 +106,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "12/8/2024, 3:29:23 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/9H-CHA_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-CHA_SpotterDomb2.jpg",
+        "name": "9H-CHA",
+        "slideName": "9h-cha",
+        "place": "SpotterDomb2",
+        "ISO": 400,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/11",
+        "focalLength": "170 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 1:34:23 PM"
       },
       {
         "path": "assets/imgs/Planespotting/9H-ETA_CargoDomb.jpg",
@@ -153,34 +183,49 @@
         "date": "11/3/2024, 11:50:53 AM"
       },
       {
-        "path": "assets/imgs/Planespotting/9H-WAG_CargoDomb.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WAG_CargoDomb.jpg",
-        "name": "9H-WAG",
-        "slideName": "9h-wag",
-        "place": "CargoDomb",
-        "ISO": 100,
-        "shutterSpeed": "1/400",
-        "fStop": "f/10",
-        "focalLength": "138 mm",
+        "path": "assets/imgs/Planespotting/9H-QES_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-QES_SpotterDomb2.jpg",
+        "name": "9H-QES",
+        "slideName": "9h-qes",
+        "place": "SpotterDomb2",
+        "ISO": 320,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "181 mm",
         "cameraMaker": "SONY",
         "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "10/21/2024, 11:47:43 AM"
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 12:11:27 PM"
       },
       {
-        "path": "assets/imgs/Planespotting/9H-WAS_CargoDomb.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WAS_CargoDomb.jpg",
-        "name": "9H-WAS",
-        "slideName": "9h-was",
-        "place": "CargoDomb",
-        "ISO": 100,
-        "shutterSpeed": "1/320",
-        "fStop": "f/10",
-        "focalLength": "126 mm",
+        "path": "assets/imgs/Planespotting/9H-WAG_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WAG_SpotterDomb2.jpg",
+        "name": "9H-WAG",
+        "slideName": "9h-wag",
+        "place": "SpotterDomb2",
+        "ISO": 250,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "158 mm",
         "cameraMaker": "SONY",
         "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "10/21/2024, 12:12:02 PM"
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 1:03:36 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/9H-WAS_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WAS_SpotterDomb2.jpg",
+        "name": "9H-WAS",
+        "slideName": "9h-was",
+        "place": "SpotterDomb2",
+        "ISO": 320,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "160 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 10:58:06 AM"
       },
       {
         "path": "assets/imgs/Planespotting/9H-WDE_CargoDomb.jpg",
@@ -273,19 +318,34 @@
         "date": "10/26/2024, 1:15:32 PM"
       },
       {
-        "path": "assets/imgs/Planespotting/9H-WNO_CargoDomb.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WNO_CargoDomb.jpg",
+        "path": "assets/imgs/Planespotting/9H-WNO_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WNO_SpotterDomb2.jpg",
         "name": "9H-WNO",
         "slideName": "9h-wno",
-        "place": "CargoDomb",
-        "ISO": 100,
-        "shutterSpeed": "1/250",
+        "place": "SpotterDomb2",
+        "ISO": 320,
+        "shutterSpeed": "1/640",
         "fStop": "f/11",
-        "focalLength": "129 mm",
+        "focalLength": "165 mm",
         "cameraMaker": "SONY",
         "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "11/3/2024, 10:26:47 AM"
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 11:52:16 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/9H-WNQ_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/9H-WNQ_SpotterDomb2.jpg",
+        "name": "9H-WNQ",
+        "slideName": "9h-wnq",
+        "place": "SpotterDomb2",
+        "ISO": 500,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/11",
+        "focalLength": "167 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 1:31:48 PM"
       },
       {
         "path": "assets/imgs/Planespotting/9H-WNR_CargoDomb.jpg",
@@ -331,6 +391,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/26/2024, 2:11:27 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/A6-EPM_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/A6-EPM_SpotterDomb2.jpg",
+        "name": "A6-EPM",
+        "slideName": "a6-epm",
+        "place": "SpotterDomb2",
+        "ISO": 200,
+        "shutterSpeed": "1/800",
+        "fStop": "f/11",
+        "focalLength": "107 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 1:09:53 PM"
       },
       {
         "path": "assets/imgs/Planespotting/ABR_CargoDomb.jpg",
@@ -558,6 +633,21 @@
         "date": "11/24/2024, 1:49:05 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/D-AIUI_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/D-AIUI_SpotterDomb2.jpg",
+        "name": "D-AIUI",
+        "slideName": "d-aiui",
+        "place": "SpotterDomb2",
+        "ISO": 250,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "200 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 12:49:24 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/D-AIWK_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/D-AIWK_CargoDomb.jpg",
         "name": "D-AIWK",
@@ -631,6 +721,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/21/2024, 11:23:13 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/EI-EMH_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/EI-EMH_SpotterDomb2.jpg",
+        "name": "EI-EMH",
+        "slideName": "ei-emh",
+        "place": "SpotterDomb2",
+        "ISO": 320,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "181 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 1:00:38 PM"
       },
       {
         "path": "assets/imgs/Planespotting/EI-EML_CargoDomb.jpg",
@@ -753,6 +858,21 @@
         "date": "11/24/2024, 3:21:44 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/F-GKXI_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/F-GKXI_SpotterDomb2.jpg",
+        "name": "F-GKXI",
+        "slideName": "f-gkxi",
+        "place": "SpotterDomb2",
+        "ISO": 320,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "229 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 11:00:18 AM"
+      },
+      {
         "path": "assets/imgs/Planespotting/F-GTAY_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/F-GTAY_CargoDomb.jpg",
         "name": "F-GTAY",
@@ -781,6 +901,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/21/2024, 11:54:57 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/G-DBCB_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/G-DBCB_SpotterDomb2.jpg",
+        "name": "G-DBCB",
+        "slideName": "g-dbcb",
+        "place": "SpotterDomb2",
+        "ISO": 320,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "288 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 11:45:54 AM"
       },
       {
         "path": "assets/imgs/Planespotting/G-DBCC_CargoDomb.jpg",
@@ -828,6 +963,36 @@
         "date": "10/26/2024, 10:38:20 AM"
       },
       {
+        "path": "assets/imgs/Planespotting/G-GDFF_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/G-GDFF_SpotterDomb2.jpg",
+        "name": "G-GDFF",
+        "slideName": "g-gdff",
+        "place": "SpotterDomb2",
+        "ISO": 320,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "200 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 11:29:44 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/G-JZDA_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/G-JZDA_SpotterDomb2.jpg",
+        "name": "G-JZDA",
+        "slideName": "g-jzda",
+        "place": "SpotterDomb2",
+        "ISO": 400,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/11",
+        "focalLength": "172 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 1:56:47 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/G-UZMJ_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/G-UZMJ_CargoDomb.jpg",
         "name": "G-UZMJ",
@@ -841,6 +1006,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/21/2024, 11:39:39 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/HA-LGI_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LGI_SpotterDomb2.jpg",
+        "name": "HA-LGI",
+        "slideName": "ha-lgi",
+        "place": "SpotterDomb2",
+        "ISO": 200,
+        "shutterSpeed": "1/800",
+        "fStop": "f/8",
+        "focalLength": "146 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 1:14:20 PM"
       },
       {
         "path": "assets/imgs/Planespotting/HA-LGN_CargoDomb.jpg",
@@ -888,6 +1068,21 @@
         "date": "11/3/2024, 10:16:40 AM"
       },
       {
+        "path": "assets/imgs/Planespotting/HA-LGR_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LGR_SpotterDomb2.jpg",
+        "name": "HA-LGR",
+        "slideName": "ha-lgr",
+        "place": "SpotterDomb2",
+        "ISO": 400,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "156 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 10:46:57 AM"
+      },
+      {
         "path": "assets/imgs/Planespotting/HA-LHU_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LHU_CargoDomb.jpg",
         "name": "HA-LHU",
@@ -918,34 +1113,34 @@
         "date": "10/26/2024, 1:25:37 PM"
       },
       {
-        "path": "assets/imgs/Planespotting/HA-LVH_CargoDomb.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LVH_CargoDomb.jpg",
+        "path": "assets/imgs/Planespotting/HA-LVH_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LVH_SpotterDomb2.jpg",
         "name": "HA-LVH",
         "slideName": "ha-lvh",
-        "place": "CargoDomb",
-        "ISO": 320,
-        "shutterSpeed": "1/200",
+        "place": "SpotterDomb2",
+        "ISO": 250,
+        "shutterSpeed": "1/640",
         "fStop": "f/11",
-        "focalLength": "73 mm",
+        "focalLength": "167 mm",
         "cameraMaker": "SONY",
         "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "10/26/2024, 1:53:33 PM"
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 12:31:36 PM"
       },
       {
-        "path": "assets/imgs/Planespotting/HA-LVI_CargoDomb.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LVI_CargoDomb.jpg",
+        "path": "assets/imgs/Planespotting/HA-LVI_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LVI_SpotterDomb2.jpg",
         "name": "HA-LVI",
         "slideName": "ha-lvi",
-        "place": "CargoDomb",
-        "ISO": 100,
-        "shutterSpeed": "1/250",
-        "fStop": "f/9",
-        "focalLength": "116 mm",
+        "place": "SpotterDomb2",
+        "ISO": 320,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "184 mm",
         "cameraMaker": "SONY",
         "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "10/21/2024, 11:06:22 AM"
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 12:05:28 PM"
       },
       {
         "path": "assets/imgs/Planespotting/HA-LVJ_CargoDomb.jpg",
@@ -961,6 +1156,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "11/3/2024, 11:34:54 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/HA-LXI_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LXI_SpotterDomb2.jpg",
+        "name": "HA-LXI",
+        "slideName": "ha-lxi",
+        "place": "SpotterDomb2",
+        "ISO": 320,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "142 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 10:42:07 AM"
       },
       {
         "path": "assets/imgs/Planespotting/HA-LXV_CargoDomb.jpg",
@@ -1023,6 +1233,21 @@
         "date": "12/18/2024, 12:20:20 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/HA-LZR_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LZR_SpotterDomb2.jpg",
+        "name": "HA-LZR",
+        "slideName": "ha-lzr",
+        "place": "SpotterDomb2",
+        "ISO": 400,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/11",
+        "focalLength": "191 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 1:52:55 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/HA-LZW_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LZW_CargoDomb.jpg",
         "name": "HA-LZW",
@@ -1038,6 +1263,21 @@
         "date": "12/18/2024, 12:26:57 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/HA-LZY_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LZY_SpotterDomb2.jpg",
+        "name": "HA-LZY",
+        "slideName": "ha-lzy",
+        "place": "SpotterDomb2",
+        "ISO": 400,
+        "shutterSpeed": "1/800",
+        "fStop": "f/11",
+        "focalLength": "172 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 2:08:10 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/HA-SCW_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-SCW_CargoDomb.jpg",
         "name": "HA-SCW",
@@ -1051,6 +1291,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/26/2024, 9:38:00 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/HA-YFH_20241008_1215px.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-YFH_20241008_1215px.jpg",
+        "name": "HA-YFH",
+        "slideName": "ha-yfh",
+        "place": "20241008",
+        "ISO": 2000,
+        "shutterSpeed": "1/320",
+        "fStop": "f/9",
+        "focalLength": "181 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "12/8/2024, 3:13:14 PM"
       },
       {
         "path": "assets/imgs/Planespotting/HA-YFH_CargoDomb.jpg",
@@ -1141,6 +1396,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/26/2024, 11:39:25 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/LN_ENN_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/LN_ENN_SpotterDomb2.jpg",
+        "name": "LN",
+        "slideName": "ln",
+        "place": "ENN",
+        "ISO": 250,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "198 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 12:29:13 PM"
       },
       {
         "path": "assets/imgs/Planespotting/LX-LQA_CargoDomb.jpg",
@@ -1338,6 +1608,21 @@
         "date": "10/21/2024, 11:09:59 AM"
       },
       {
+        "path": "assets/imgs/Planespotting/OH_LKG_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/OH_LKG_SpotterDomb2.jpg",
+        "name": "OH",
+        "slideName": "oh",
+        "place": "LKG",
+        "ISO": 200,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "214 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 10:37:54 AM"
+      },
+      {
         "path": "assets/imgs/Planespotting/OK-PCE_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/OK-PCE_CargoDomb.jpg",
         "name": "OK-PCE",
@@ -1426,6 +1711,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "11/24/2024, 2:33:43 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/PH_BXB_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/PH_BXB_SpotterDomb2.jpg",
+        "name": "PH",
+        "slideName": "ph",
+        "place": "BXB",
+        "ISO": 250,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "200 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 12:15:06 PM"
       },
       {
         "path": "assets/imgs/Planespotting/SE-MKF_CargoDomb.jpg",
@@ -1518,6 +1818,21 @@
         "date": "10/26/2024, 1:56:54 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/SP-LNG_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-LNG_SpotterDomb2.jpg",
+        "name": "SP-LNG",
+        "slideName": "sp-lng",
+        "place": "SpotterDomb2",
+        "ISO": 400,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "211 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 12:08:33 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/SP-LRD_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-LRD_CargoDomb.jpg",
         "name": "SP-LRD",
@@ -1591,6 +1906,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/26/2024, 2:25:35 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/SP-RKR_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RKR_SpotterDomb2.jpg",
+        "name": "SP-RKR",
+        "slideName": "sp-rkr",
+        "place": "SpotterDomb2",
+        "ISO": 400,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "218 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 11:02:51 AM"
       },
       {
         "path": "assets/imgs/Planespotting/SP-RKT_CargoDomb.jpg",
@@ -1668,6 +1998,51 @@
         "date": "10/26/2024, 2:00:43 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/SP-RSR_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RSR_SpotterDomb2.jpg",
+        "name": "SP-RSR",
+        "slideName": "sp-rsr",
+        "place": "SpotterDomb2",
+        "ISO": 250,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "177 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 12:03:31 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/SP-RSS_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RSS_SpotterDomb2.jpg",
+        "name": "SP-RSS",
+        "slideName": "sp-rss",
+        "place": "SpotterDomb2",
+        "ISO": 320,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "218 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 10:44:46 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/SP-RST_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RST_SpotterDomb2.jpg",
+        "name": "SP-RST",
+        "slideName": "sp-rst",
+        "place": "SpotterDomb2",
+        "ISO": 400,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/11",
+        "focalLength": "211 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 1:36:05 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/SP-RSV_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RSV_CargoDomb.jpg",
         "name": "SP-RSV",
@@ -1681,6 +2056,51 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "11/3/2024, 10:40:33 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/SP-RSY_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RSY_SpotterDomb2.jpg",
+        "name": "SP-RSY",
+        "slideName": "sp-rsy",
+        "place": "SpotterDomb2",
+        "ISO": 320,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "179 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 12:47:17 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/SP-RZB_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RZB_SpotterDomb2.jpg",
+        "name": "SP-RZB",
+        "slideName": "sp-rzb",
+        "place": "SpotterDomb2",
+        "ISO": 400,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/11",
+        "focalLength": "200 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 1:40:29 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/SP-RZC_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RZC_SpotterDomb2.jpg",
+        "name": "SP-RZC",
+        "slideName": "sp-rzc",
+        "place": "SpotterDomb2",
+        "ISO": 250,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "222 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 12:13:13 PM"
       },
       {
         "path": "assets/imgs/Planespotting/SP-RZD_CargoDomb.jpg",
@@ -1801,6 +2221,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/26/2024, 1:04:51 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/TC-JYI_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/TC-JYI_SpotterDomb2.jpg",
+        "name": "TC-JYI",
+        "slideName": "tc-jyi",
+        "place": "SpotterDomb2",
+        "ISO": 250,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "191 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 12:41:40 PM"
       },
       {
         "path": "assets/imgs/Planespotting/TC-LER_CargoDomb.jpg",
@@ -1938,6 +2373,21 @@
         "date": "10/26/2024, 12:46:06 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/UR-SQD_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/UR-SQD_SpotterDomb2.jpg",
+        "name": "UR-SQD",
+        "slideName": "ur-sqd",
+        "place": "SpotterDomb2",
+        "ISO": 400,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/11",
+        "focalLength": "229 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 1:38:21 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/XU-726_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/XU-726_CargoDomb.jpg",
         "name": "XU-726",
@@ -1951,6 +2401,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/26/2024, 10:45:19 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/YR-ATM_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/YR-ATM_SpotterDomb2.jpg",
+        "name": "YR-ATM",
+        "slideName": "yr-atm",
+        "place": "SpotterDomb2",
+        "ISO": 250,
+        "shutterSpeed": "1/500",
+        "fStop": "f/11",
+        "focalLength": "247 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 10:31:13 AM"
       },
       {
         "path": "assets/imgs/Planespotting/YU-ASC_CargoDomb.jpg",
@@ -2033,10 +2498,10 @@
         "date": "11/24/2024, 2:05:20 PM"
       },
       {
-        "path": "assets/imgs/Wildlife/Galab_városliget.jpg",
-        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Galab_városliget.jpg",
-        "name": "Galab",
-        "slideName": "galab",
+        "path": "assets/imgs/Wildlife/Galamb_városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Galamb_városliget.jpg",
+        "name": "Galamb",
+        "slideName": "galamb",
         "place": "városliget",
         "ISO": 500,
         "shutterSpeed": "1/320",
@@ -2046,6 +2511,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 70-350mm F4.5-6.3 G OSS",
         "date": "12/16/2024, 1:42:58 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Héja_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Héja_SpotterDomb2.jpg",
+        "name": "Héja",
+        "slideName": "heja",
+        "place": "SpotterDomb2",
+        "ISO": 500,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/11",
+        "focalLength": "339 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 1:46:19 PM"
       },
       {
         "path": "assets/imgs/Wildlife/Madár1_városliget.jpg",
@@ -2106,6 +2586,51 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 70-350mm F4.5-6.3 G OSS",
         "date": "12/16/2024, 1:46:01 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Madár5_Városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Madár5_Városliget.jpg",
+        "name": "Madár5",
+        "slideName": "madar5",
+        "place": "Városliget",
+        "ISO": 200,
+        "shutterSpeed": "1/500",
+        "fStop": "f/6.3",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "1/3/2025, 12:08:24 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Madár6_Városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Madár6_Városliget.jpg",
+        "name": "Madár6",
+        "slideName": "madar6",
+        "place": "Városliget",
+        "ISO": 1000,
+        "shutterSpeed": "1/500",
+        "fStop": "f/9",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "1/3/2025, 12:52:49 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Madár7_Városliget.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Madár7_Városliget.jpg",
+        "name": "Madár7",
+        "slideName": "madar7",
+        "place": "Városliget",
+        "ISO": 160,
+        "shutterSpeed": "1/500",
+        "fStop": "f/6.3",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "1/3/2025, 12:17:07 PM"
       },
       {
         "path": "assets/imgs/Wildlife/Szemetes Varjú_Városliget.jpg",
@@ -2328,10 +2853,25 @@
         "date": "11/22/2024, 7:24:28 AM"
       },
       {
-        "path": "assets/imgs/Landscape/Vajda Hunyad Vára fahíd_Városliget.jpg",
-        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Vajda Hunyad Vára fahíd_Városliget.jpg",
-        "name": "Vajda Hunyad Vára fahíd",
-        "slideName": "vajda-hunyad-vara-fahid",
+        "path": "assets/imgs/Landscape/Növény_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Növény_SpotterDomb2.jpg",
+        "name": "Növény",
+        "slideName": "noveny",
+        "place": "SpotterDomb2",
+        "ISO": 800,
+        "shutterSpeed": "1/400",
+        "fStop": "f/6.3",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 11:21:15 AM"
+      },
+      {
+        "path": "assets/imgs/Landscape/Vajdahunyad Vára fahíd_Városliget.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Vajdahunyad Vára fahíd_Városliget.jpg",
+        "name": "Vajdahunyad Vára fahíd",
+        "slideName": "vajdahunyad-vara-fahid",
         "place": "Városliget",
         "ISO": 320,
         "shutterSpeed": "1/125",
