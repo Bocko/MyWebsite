@@ -10,7 +10,7 @@
         </div>
     </div>
     <div *ngFor="let gallery of filteredGalleryLists; index as i">
-        <details *ngIf="gallery.items.length > 0">
+        <details *ngIf="gallery.items.length > 0" [attr.id]="gallery.name">
             <summary>
                 <span class="details-marker">⯈</span>
                 <h2 class="imgHeader">

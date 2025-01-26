@@ -25,6 +25,8 @@ export class GalleryComponent {
   gallerySettings: LightgalleryComponent["settings"][] = [];
   othersGallery!: LightGallery;
 
+  detailsStates: Map<string, boolean> = new Map<string, boolean>;
+
   constructor()
   {
     this.photoHandler.getImageLists().then((galleryLists: PhotoListEntry[]) => 
@@ -32,6 +34,12 @@ export class GalleryComponent {
       this.galleryLists = galleryLists;
       this.createGallerySettings();
       this.filteredGalleryLists = JSON.parse(JSON.stringify(this.galleryLists));
+
+      for (let index = 0; index < galleryLists.length; index++)
+      {
+        const element = galleryLists[index];
+        this.detailsStates.set(element.name,false);
+      }
     });
   }
 
@@ -50,7 +58,7 @@ export class GalleryComponent {
         plugins: [lgZoom, lgHash, lgFullscreen]
       };
       
-      this.gallerySettings.push(settings);      
+      this.gallerySettings.push(settings);
     }
   }
 
@@ -58,6 +66,21 @@ export class GalleryComponent {
     detail.instance.settings.galleryId = this.galleries.length.toString();
     detail.instance.refresh();
     this.galleries.push(detail.instance);
+
+    let numberOfGalleries = 0;
+
+    this.filteredGalleryLists.forEach(element =>
+    {
+      if (element.items.length > 0)
+      {
+        numberOfGalleries++;
+      }
+    });
+
+    if (this.galleries.length == numberOfGalleries)
+    {
+      this.applyDetailsStates();
+    }
   };
 
   refreshGalleries() 
@@ -68,8 +91,33 @@ export class GalleryComponent {
     });
   }
 
+  updateDetailsStates()
+  {
+    this.detailsStates.forEach((isOpen, id, _) =>
+    {
+      const element = document.getElementById(id);
+      if (element != null)
+      {
+        this.detailsStates.set(id, element!.hasAttribute("open"));
+      }
+    });
+  }
+
+  applyDetailsStates()
+  {
+    this.detailsStates.forEach((isOpen, id, _) =>
+    {
+      if (isOpen)
+      {
+        document.getElementById(id)?.setAttribute("open", "true");
+      }
+    });
+  }
+
   filterGalleries(text: string)
   {
+    this.updateDetailsStates();
+    this.galleries = [];
     this.filteredGalleryLists = JSON.parse(JSON.stringify(this.galleryLists));
 
     if (text)
