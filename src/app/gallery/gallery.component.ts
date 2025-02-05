@@ -1,23 +1,28 @@
 import { Component, inject } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { LightgalleryComponent, LightgalleryModule } from 'lightgallery/angular';
 import { PhotoHandlerService } from '../services/photo-handler.service';
-import { PhotoListEntry } from '../interfaces/photo-entry';
+import { getSelectedFilterField, PhotoListEntry, PhotoMetadata } from '../interfaces/photo-entry';
 import lgZoom from 'lightgallery/plugins/zoom';
 import lgHash from 'lightgallery/plugins/hash';
 import lgFullscreen from 'lightgallery/plugins/fullscreen';
 import { InitDetail } from 'lightgallery/lg-events';
 import { LightGallery } from 'lightgallery/lightgallery';
+import { EnumToArrayPipe } from '../services/pipes';
 
 @Component({
   selector: 'mw-gallery',
   standalone: true,
-  imports: [ LightgalleryModule, CommonModule ],
+  imports: [ LightgalleryModule, CommonModule, EnumToArrayPipe, FormsModule ],
   templateUrl: './gallery.component.html',
   styleUrl: './gallery.component.scss'
 })
-export class GalleryComponent {
+export class GalleryComponent
+{
   photoHandler: PhotoHandlerService = inject(PhotoHandlerService);
+  PhotoMetadata = PhotoMetadata
+
   galleryLists : PhotoListEntry[] = [];
   filteredGalleryLists :  PhotoListEntry[] = [];
 
@@ -26,6 +31,7 @@ export class GalleryComponent {
   othersGallery!: LightGallery;
 
   detailsStates: Map<string, boolean> = new Map<string, boolean>;
+  selectedFieldFilter: string = PhotoMetadata.NAME;
 
   constructor()
   {
@@ -38,10 +44,12 @@ export class GalleryComponent {
       for (let index = 0; index < galleryLists.length; index++)
       {
         const element = galleryLists[index];
-        this.detailsStates.set(element.name,false);
+        this.detailsStates.set(element.name, false);
       }
     });
   }
+
+//#region Gallery Methods
 
   createGallerySettings()
   {
@@ -91,6 +99,10 @@ export class GalleryComponent {
     });
   }
 
+//#endregion Gallery Methods
+
+//#region Gallery Open/Close State Handlers
+
   updateDetailsStates()
   {
     this.detailsStates.forEach((isOpen, id, _) =>
@@ -114,22 +126,34 @@ export class GalleryComponent {
     });
   }
 
+//#endregion Gallery Open/Close State Handlers
+
+//#region Filtering
+
   filterGalleries(text: string)
   {
     this.updateDetailsStates();
     this.galleries = [];
     this.filteredGalleryLists = JSON.parse(JSON.stringify(this.galleryLists));
 
-    if (text)
+    if (text && this.selectedFieldFilter)
     {
       for (let i : number = 0; i < this.filteredGalleryLists.length; i++)
-        {
-          this.filteredGalleryLists[i].items = this.filteredGalleryLists[i].items.filter((photoEntry) =>
-            photoEntry.name.toLowerCase().includes(text.toLowerCase()),
-          );
-        }
+      {
+        this.filteredGalleryLists[i].items = this.filteredGalleryLists[i].items.filter((photoEntry) =>
+          getSelectedFilterField(this.selectedFieldFilter, photoEntry).toLowerCase().includes(text.toLowerCase())
+        );
+      }
     }
 
     this.refreshGalleries();
   }
+
+  clearGalleriesFilter()
+  {
+    (document.getElementById("filterInput") as HTMLInputElement).value = "";
+    this.filterGalleries("");
+  }
+
+//#endregion Filtering
 }

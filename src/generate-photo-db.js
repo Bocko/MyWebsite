@@ -33,7 +33,7 @@ function isValidImage(filePath)
             img.thumbnailPath = path.join(webPath, folder, thumbnailFolder, item);
             img.name = itemSplit[0];
             img.slideName = latinize(itemSplit[0].replaceAll(" ", "-").toLowerCase());
-            img.place = itemSplit[1];
+            img.location = itemSplit[1];
 
             // from exif data
 

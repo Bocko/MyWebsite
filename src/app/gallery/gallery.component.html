@@ -1,11 +1,24 @@
-<div class="container-fluid col-lg-8">
-    <div class="container search-container">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search..." (keyup.enter)="filterGalleries(filter.value)" #filter>
-            <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" (click)="filterGalleries(filter.value)">
-                <i class="fas fa-search"></i>
-            </button>
+<div class="container-fluid col-lg-8 p-0">
+    <div class="container-fluid search-container">
+        <div class="row">
+            <div class="col-xl-3 fieldFilters">
+                <select class="form-select" [(ngModel)]="selectedFieldFilter">
+                    <p>asd</p>
+                    <option *ngFor="let field of PhotoMetadata | enumToArray" [value]="field">{{field}}</option>
+                </select>
+            </div>
+            <div class="col-xl-9">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search..." (keyup.enter)="filterGalleries(filterInput.value)" id="filterInput" #filterInput>
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary innerBtn" type="button" (click)="filterGalleries(filterInput.value)">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button class="btn btn-outline-secondary outerBtn" type="button" (click)="clearGalleriesFilter()">
+                            <i class="fas fa-x"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -17,10 +30,9 @@
                     {{gallery.name}}
                 </h2>
             </summary>
-            <div>
+            <div class="galleryHolder">
                 <lightgallery [settings]="gallerySettings[i]" [onInit]="onGalleryInit" class="center-items">
                     <a *ngFor="let image of gallery.items"
-                      class="gallery-item"
                       [attr.data-src]="image.path"
                       [attr.data-slide-name]="image.slideName"
                       attr.data-sub-html="
@@ -30,7 +42,7 @@
                         <div class='d-flex justify-content-center'>
                             <div class='mx-4 text-start'>
                                 <p>
-                                    <span class='text-nowrap'>Location -</span> {{image.place}}
+                                    <span class='text-nowrap'>Location -</span> {{image.location}}
                                 </p>
                                 <p>
                                     <span class='text-nowrap'>Date -</span> {{image.date}}

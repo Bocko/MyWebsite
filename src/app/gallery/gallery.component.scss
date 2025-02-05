@@ -1,11 +1,17 @@
 .search-container
 {
     margin-bottom: 1.5rem;
+    padding: 0;
 }
 
 h2
 {
     margin: 1rem 0;
+}
+
+.galleryHolder
+{
+    padding: .5rem 0;
 }
 
 .img-responsive
@@ -20,7 +26,27 @@ h2
     cursor: pointer;
 }
 
-button
+.fieldFilters
+{
+    padding: 0 0 0 .75rem;
+}
+
+@media (max-width: 1199px)
+{
+    .fieldFilters
+    {
+        padding: 0 .75rem 0 .75rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.innerBtn
+{
+    color: var(--mainColor);
+    border-radius: 0;
+}
+
+.outerBtn
 {
     color: var(--mainColor);
     border-radius: 0rem .375rem .375rem 0rem;
@@ -29,7 +55,7 @@ button
 .imgHeader
 {
     font-size: 2.25rem;
-    margin: .5rem auto;
+    margin: 0 auto;
     color: var(--iconColor);
     text-align: center;
 }
@@ -49,7 +75,7 @@ button
 
 .details-marker
 {
-    margin: auto 0;
+    margin: auto 0.25rem;
     font-size: 1.5rem;
 }
 
@@ -61,6 +87,10 @@ summary
 details
 {
     color: var(--mainColor);
+    margin: 1rem 0;
+    padding: .25rem 0;
+    background-color: var(--backgroundColor);
+    border-radius: .375rem;
 }
 
 details[open]
