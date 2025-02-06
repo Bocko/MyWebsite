@@ -378,6 +378,21 @@
         "date": "10/26/2024, 2:25:11 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/A6-EGO_GépmadárFigyelő.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/A6-EGO_GépmadárFigyelő.jpg",
+        "name": "A6-EGO",
+        "slideName": "a6-ego",
+        "location": "GépmadárFigyelő",
+        "ISO": 500,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/11",
+        "focalLength": "106 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "2/1/2025, 1:18:09 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/A6-ENQ_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/A6-ENQ_CargoDomb.jpg",
         "name": "A6-ENQ",
@@ -601,6 +616,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "11/3/2024, 11:47:11 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/D-AILU_GépmadárFigyelő.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/D-AILU_GépmadárFigyelő.jpg",
+        "name": "D-AILU",
+        "slideName": "d-ailu",
+        "location": "GépmadárFigyelő",
+        "ISO": 250,
+        "shutterSpeed": "1/800",
+        "fStop": "f/11",
+        "focalLength": "214 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "2/1/2025, 1:59:53 PM"
       },
       {
         "path": "assets/imgs/Planespotting/D-AINI_CargoDomb.jpg",
@@ -1143,19 +1173,19 @@
         "date": "12/27/2024, 12:05:28 PM"
       },
       {
-        "path": "assets/imgs/Planespotting/HA-LVJ_CargoDomb.jpg",
-        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LVJ_CargoDomb.jpg",
+        "path": "assets/imgs/Planespotting/HA-LVJ_GépmadárFigyelő.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HA-LVJ_GépmadárFigyelő.jpg",
         "name": "HA-LVJ",
         "slideName": "ha-lvj",
-        "location": "CargoDomb",
-        "ISO": 400,
-        "shutterSpeed": "1/400",
-        "fStop": "f/14",
-        "focalLength": "141 mm",
+        "location": "GépmadárFigyelő",
+        "ISO": 320,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/11",
+        "focalLength": "158 mm",
         "cameraMaker": "SONY",
         "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "11/3/2024, 11:34:54 AM"
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "2/1/2025, 1:27:29 PM"
       },
       {
         "path": "assets/imgs/Planespotting/HA-LXI_SpotterDomb2.jpg",
@@ -1336,6 +1366,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/26/2024, 9:57:36 AM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/HB-AZK_GépmadárFigyelő.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/HB-AZK_GépmadárFigyelő.jpg",
+        "name": "HB-AZK",
+        "slideName": "hb-azk",
+        "location": "GépmadárFigyelő",
+        "ISO": 125,
+        "shutterSpeed": "1/800",
+        "fStop": "f/11",
+        "focalLength": "130 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "2/1/2025, 2:23:27 PM"
       },
       {
         "path": "assets/imgs/Planespotting/HB-AZL_CargoDomb.jpg",
@@ -2118,6 +2163,21 @@
         "date": "10/26/2024, 12:46:44 PM"
       },
       {
+        "path": "assets/imgs/Planespotting/SP-RZE_GépmadárFigyelő.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RZE_GépmadárFigyelő.jpg",
+        "name": "SP-RZE",
+        "slideName": "sp-rze",
+        "location": "GépmadárFigyelő",
+        "ISO": 400,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/11",
+        "focalLength": "149 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "2/1/2025, 1:15:16 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/SP-RZF_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SP-RZF_CargoDomb.jpg",
         "name": "SP-RZF",
@@ -2176,6 +2236,21 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "11/24/2024, 3:24:28 PM"
+      },
+      {
+        "path": "assets/imgs/Planespotting/SX-DVV_GépmadárFigyelő.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/SX-DVV_GépmadárFigyelő.jpg",
+        "name": "SX-DVV",
+        "slideName": "sx-dvv",
+        "location": "GépmadárFigyelő",
+        "ISO": 250,
+        "shutterSpeed": "1/800",
+        "fStop": "f/11",
+        "focalLength": "139 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "2/1/2025, 1:57:47 PM"
       },
       {
         "path": "assets/imgs/Planespotting/SX-DVX_CargoDomb.jpg",
@@ -2418,6 +2493,21 @@
         "date": "12/27/2024, 10:31:13 AM"
       },
       {
+        "path": "assets/imgs/Planespotting/YU-ALZ_GépmadárFigyelő.jpg",
+        "thumbnailPath": "assets/imgs/Planespotting/thumbnail/YU-ALZ_GépmadárFigyelő.jpg",
+        "name": "YU-ALZ",
+        "slideName": "yu-alz",
+        "location": "GépmadárFigyelő",
+        "ISO": 250,
+        "shutterSpeed": "1/640",
+        "fStop": "f/11",
+        "focalLength": "236 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "2/1/2025, 2:26:19 PM"
+      },
+      {
         "path": "assets/imgs/Planespotting/YU-ASC_CargoDomb.jpg",
         "thumbnailPath": "assets/imgs/Planespotting/thumbnail/YU-ASC_CargoDomb.jpg",
         "name": "YU-ASC",
@@ -2511,6 +2601,36 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 70-350mm F4.5-6.3 G OSS",
         "date": "12/16/2024, 1:42:58 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Héja2_Gépmadár Figyelő.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Héja2_Gépmadár Figyelő.jpg",
+        "name": "Héja2",
+        "slideName": "heja2",
+        "location": "Gépmadár Figyelő",
+        "ISO": 400,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/11",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "2/1/2025, 1:46:01 PM"
+      },
+      {
+        "path": "assets/imgs/Wildlife/Héja3_Gépmadár Figyelő.jpg",
+        "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Héja3_Gépmadár Figyelő.jpg",
+        "name": "Héja3",
+        "slideName": "heja3",
+        "location": "Gépmadár Figyelő",
+        "ISO": 250,
+        "shutterSpeed": "1/800",
+        "fStop": "f/11",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "2/1/2025, 1:46:25 PM"
       },
       {
         "path": "assets/imgs/Wildlife/Héja_SpotterDomb2.jpg",
@@ -2665,6 +2785,131 @@
     ]
   },
   {
+    "name": "Landscape",
+    "items": [
+      {
+        "path": "assets/imgs/Landscape/Budai Dombok 2_Néprajzi Múzeum.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Budai Dombok 2_Néprajzi Múzeum.jpg",
+        "name": "Budai Dombok 2",
+        "slideName": "budai-dombok-2",
+        "location": "Néprajzi Múzeum",
+        "ISO": 3200,
+        "shutterSpeed": "1/10",
+        "fStop": "f/32",
+        "focalLength": "210 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/6/2024, 5:50:23 PM"
+      },
+      {
+        "path": "assets/imgs/Landscape/Budai Dombok és Pest_Kertvárosi Kilátó.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Budai Dombok és Pest_Kertvárosi Kilátó.jpg",
+        "name": "Budai Dombok és Pest",
+        "slideName": "budai-dombok-es-pest",
+        "location": "Kertvárosi Kilátó",
+        "ISO": 640,
+        "shutterSpeed": "1/100",
+        "fStop": "f/6.3",
+        "focalLength": "55 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/20/2024, 5:57:17 PM"
+      },
+      {
+        "path": "assets/imgs/Landscape/Budai Dombok_Kertvárosi Kilátó.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Budai Dombok_Kertvárosi Kilátó.jpg",
+        "name": "Budai Dombok",
+        "slideName": "budai-dombok",
+        "location": "Kertvárosi Kilátó",
+        "ISO": 320,
+        "shutterSpeed": "1/160",
+        "fStop": "f/6.3",
+        "focalLength": "99 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 55-210mm F4.5-6.3 OSS",
+        "date": "10/20/2024, 5:53:11 PM"
+      },
+      {
+        "path": "assets/imgs/Landscape/Ferihegy Sunset_Ferihegy.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Ferihegy Sunset_Ferihegy.jpg",
+        "name": "Ferihegy Sunset",
+        "slideName": "ferihegy-sunset",
+        "location": "Ferihegy",
+        "ISO": 500,
+        "shutterSpeed": "1/500",
+        "fStop": "f/11",
+        "focalLength": "50 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E PZ 16-50mm F3.5-5.6 OSS",
+        "date": "11/24/2024, 3:39:34 PM"
+      },
+      {
+        "path": "assets/imgs/Landscape/Havas Fák_Erkély.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Havas Fák_Erkély.jpg",
+        "name": "Havas Fák",
+        "slideName": "havas-fak",
+        "location": "Erkély",
+        "ISO": 125,
+        "shutterSpeed": "1",
+        "fStop": "f/11",
+        "focalLength": "27 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E PZ 16-50mm F3.5-5.6 OSS",
+        "date": "11/22/2024, 7:24:28 AM"
+      },
+      {
+        "path": "assets/imgs/Landscape/Mező_Gépmadár Figyelő.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Mező_Gépmadár Figyelő.jpg",
+        "name": "Mező",
+        "slideName": "mezo",
+        "location": "Gépmadár Figyelő",
+        "ISO": 100,
+        "shutterSpeed": "1/1000",
+        "fStop": "f/4.5",
+        "focalLength": "70 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "2/1/2025, 1:30:16 PM"
+      },
+      {
+        "path": "assets/imgs/Landscape/Növény_SpotterDomb2.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Növény_SpotterDomb2.jpg",
+        "name": "Növény",
+        "slideName": "noveny",
+        "location": "SpotterDomb2",
+        "ISO": 800,
+        "shutterSpeed": "1/400",
+        "fStop": "f/6.3",
+        "focalLength": "350 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/27/2024, 11:21:15 AM"
+      },
+      {
+        "path": "assets/imgs/Landscape/Vajdahunyad Vára fahíd_Városliget.jpg",
+        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Vajdahunyad Vára fahíd_Városliget.jpg",
+        "name": "Vajdahunyad Vára fahíd",
+        "slideName": "vajdahunyad-vara-fahid",
+        "location": "Városliget",
+        "ISO": 320,
+        "shutterSpeed": "1/125",
+        "fStop": "f/4.5",
+        "focalLength": "70 mm",
+        "cameraMaker": "SONY",
+        "cameraModel": "ILCE-6000",
+        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+        "date": "12/16/2024, 2:13:24 PM"
+      }
+    ]
+  },
+  {
     "name": "Architecture",
     "items": [
       {
@@ -2771,116 +3016,6 @@
         "cameraModel": "ILCE-6000",
         "lensModel": "E 55-210mm F4.5-6.3 OSS",
         "date": "10/6/2024, 5:01:49 PM"
-      }
-    ]
-  },
-  {
-    "name": "Landscape",
-    "items": [
-      {
-        "path": "assets/imgs/Landscape/Budai Dombok 2_Néprajzi Múzeum.jpg",
-        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Budai Dombok 2_Néprajzi Múzeum.jpg",
-        "name": "Budai Dombok 2",
-        "slideName": "budai-dombok-2",
-        "location": "Néprajzi Múzeum",
-        "ISO": 3200,
-        "shutterSpeed": "1/10",
-        "fStop": "f/32",
-        "focalLength": "210 mm",
-        "cameraMaker": "SONY",
-        "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "10/6/2024, 5:50:23 PM"
-      },
-      {
-        "path": "assets/imgs/Landscape/Budai Dombok és Pest_Kertvárosi Kilátó.jpg",
-        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Budai Dombok és Pest_Kertvárosi Kilátó.jpg",
-        "name": "Budai Dombok és Pest",
-        "slideName": "budai-dombok-es-pest",
-        "location": "Kertvárosi Kilátó",
-        "ISO": 640,
-        "shutterSpeed": "1/100",
-        "fStop": "f/6.3",
-        "focalLength": "55 mm",
-        "cameraMaker": "SONY",
-        "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "10/20/2024, 5:57:17 PM"
-      },
-      {
-        "path": "assets/imgs/Landscape/Budai Dombok_Kertvárosi Kilátó.jpg",
-        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Budai Dombok_Kertvárosi Kilátó.jpg",
-        "name": "Budai Dombok",
-        "slideName": "budai-dombok",
-        "location": "Kertvárosi Kilátó",
-        "ISO": 320,
-        "shutterSpeed": "1/160",
-        "fStop": "f/6.3",
-        "focalLength": "99 mm",
-        "cameraMaker": "SONY",
-        "cameraModel": "ILCE-6000",
-        "lensModel": "E 55-210mm F4.5-6.3 OSS",
-        "date": "10/20/2024, 5:53:11 PM"
-      },
-      {
-        "path": "assets/imgs/Landscape/Ferihegy Sunset_Ferihegy.jpg",
-        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Ferihegy Sunset_Ferihegy.jpg",
-        "name": "Ferihegy Sunset",
-        "slideName": "ferihegy-sunset",
-        "location": "Ferihegy",
-        "ISO": 500,
-        "shutterSpeed": "1/500",
-        "fStop": "f/11",
-        "focalLength": "50 mm",
-        "cameraMaker": "SONY",
-        "cameraModel": "ILCE-6000",
-        "lensModel": "E PZ 16-50mm F3.5-5.6 OSS",
-        "date": "11/24/2024, 3:39:34 PM"
-      },
-      {
-        "path": "assets/imgs/Landscape/Havas Fák_Erkély.jpg",
-        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Havas Fák_Erkély.jpg",
-        "name": "Havas Fák",
-        "slideName": "havas-fak",
-        "location": "Erkély",
-        "ISO": 125,
-        "shutterSpeed": "1",
-        "fStop": "f/11",
-        "focalLength": "27 mm",
-        "cameraMaker": "SONY",
-        "cameraModel": "ILCE-6000",
-        "lensModel": "E PZ 16-50mm F3.5-5.6 OSS",
-        "date": "11/22/2024, 7:24:28 AM"
-      },
-      {
-        "path": "assets/imgs/Landscape/Növény_SpotterDomb2.jpg",
-        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Növény_SpotterDomb2.jpg",
-        "name": "Növény",
-        "slideName": "noveny",
-        "location": "SpotterDomb2",
-        "ISO": 800,
-        "shutterSpeed": "1/400",
-        "fStop": "f/6.3",
-        "focalLength": "350 mm",
-        "cameraMaker": "SONY",
-        "cameraModel": "ILCE-6000",
-        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
-        "date": "12/27/2024, 11:21:15 AM"
-      },
-      {
-        "path": "assets/imgs/Landscape/Vajdahunyad Vára fahíd_Városliget.jpg",
-        "thumbnailPath": "assets/imgs/Landscape/thumbnail/Vajdahunyad Vára fahíd_Városliget.jpg",
-        "name": "Vajdahunyad Vára fahíd",
-        "slideName": "vajdahunyad-vara-fahid",
-        "location": "Városliget",
-        "ISO": 320,
-        "shutterSpeed": "1/125",
-        "fStop": "f/4.5",
-        "focalLength": "70 mm",
-        "cameraMaker": "SONY",
-        "cameraModel": "ILCE-6000",
-        "lensModel": "E 70-350mm F4.5-6.3 G OSS",
-        "date": "12/16/2024, 2:13:24 PM"
       }
     ]
   },
