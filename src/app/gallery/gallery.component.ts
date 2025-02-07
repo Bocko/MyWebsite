@@ -31,7 +31,10 @@ export class GalleryComponent
   othersGallery!: LightGallery;
 
   detailsStates: Map<string, boolean> = new Map<string, boolean>;
+
   selectedFieldFilter: string = PhotoMetadata.NAME;
+  selectedFieldSort: string = PhotoMetadata.NAME;
+  isSortingReversed: boolean = false;
 
   constructor()
   {
@@ -146,7 +149,7 @@ export class GalleryComponent
       }
     }
 
-    this.refreshGalleries();
+    this.sortGalleries();
   }
 
   clearGalleriesFilter()
@@ -156,4 +159,49 @@ export class GalleryComponent
   }
 
 //#endregion Filtering
+
+//#region Sorting
+
+  sortGalleries()
+  {
+    this.updateDetailsStates();
+    this.galleries = [];
+    this.filteredGalleryLists = JSON.parse(JSON.stringify(this.filteredGalleryLists));
+
+    const selectedSort = this.selectedFieldSort;
+
+    for (let i : number = 0; i < this.filteredGalleryLists.length; i++)
+    {
+      this.filteredGalleryLists[i].items = this.filteredGalleryLists[i].items.sort((photoA, photoB) =>
+      {
+        if (this.isSortingReversed)
+        {
+          return getSelectedFilterField(selectedSort, photoB).localeCompare(getSelectedFilterField(selectedSort, photoA))
+        }
+        else
+        {
+          return getSelectedFilterField(selectedSort, photoA).localeCompare(getSelectedFilterField(selectedSort, photoB))
+        }
+      });
+    }
+
+    this.refreshGalleries();
+  }
+
+  reverseSorting()
+  {
+    this.isSortingReversed = !this.isSortingReversed;
+    const reverseButton = document.getElementById("sortReverseButton");
+    if (this.isSortingReversed)
+    {
+      reverseButton?.classList.add("sortReversed");
+    }
+    else
+    {
+      reverseButton?.classList.remove("sortReversed");
+    }
+    this.sortGalleries();
+  }
+
+//#endregion Sorting
 }

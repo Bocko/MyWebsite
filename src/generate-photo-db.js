@@ -15,7 +15,12 @@ function isValidImage(filePath)
     return !fs.statSync(filePath).isDirectory() && path.parse(filePath).ext != '.json';
 }
 
- function scanFolder(folderPath, folder)
+function padDate(date)
+{
+    return date.toString().padStart(2, '0');
+}
+
+function scanFolder(folderPath, folder)
 {
     let imgList = [];
 
@@ -45,7 +50,9 @@ function isValidImage(filePath)
             img.cameraModel = exifTags["Model"]?.description;
             img.lensMaker = exifTags["LensMake"]?.description;
             img.lensModel = exifTags["LensModel"]?.description;
-            img.date = new Date(exifTags["CreateDate"]?.description).toLocaleString();
+            const date = new Date(exifTags["CreateDate"]?.description);
+            const customDateFormat = `${date.getFullYear()}-${padDate(date.getMonth() + 1)}-${padDate(date.getDate())} ${padDate(date.getHours())}:${padDate(date.getMinutes())}:${padDate(date.getSeconds())}`
+            img.date = customDateFormat;
 
             imgList.push(img);
         }

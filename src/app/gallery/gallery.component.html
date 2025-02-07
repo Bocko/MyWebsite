@@ -1,13 +1,13 @@
 <div class="container-fluid col-lg-8 p-0">
     <div class="container-fluid search-container">
         <div class="row">
-            <div class="col-xl-3 fieldFilters">
+            <div class="col-xl-3 fieldFilters search-element-holder">
+                <p class="search-label">Filter By</p>
                 <select class="form-select" [(ngModel)]="selectedFieldFilter">
-                    <p>asd</p>
                     <option *ngFor="let field of PhotoMetadata | enumToArray" [value]="field">{{field}}</option>
                 </select>
             </div>
-            <div class="col-xl-9">
+            <div class="col-xl-6">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Search..." (keyup.enter)="filterGalleries(filterInput.value)" id="filterInput" #filterInput>
                     <div class="input-group-append">
@@ -16,6 +16,19 @@
                         </button>
                         <button class="btn btn-outline-secondary outerBtn" type="button" (click)="clearGalleriesFilter()">
                             <i class="fas fa-x"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 fieldSort search-element-holder">
+                <p class="search-label">Sort By</p>
+                <div class="input-group">
+                    <select class="form-select" [(ngModel)]="selectedFieldSort" (change)="sortGalleries()">
+                        <option *ngFor="let field of PhotoMetadata | enumToArray" [value]="field">{{field}}</option>
+                    </select>
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary outerBtn" type="button" (click)="reverseSorting()">
+                            <i class="fas fa-arrow-up" id="sortReverseButton"></i>
                         </button>
                     </div>
                 </div>
