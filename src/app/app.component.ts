@@ -15,12 +15,14 @@ export class AppComponent {
   year = new Date().getFullYear();
   showShell = true;
 
-  i = 0;
-
   constructor(private router: Router)
   {
     router.events.pipe(filter(event => event instanceof NavigationEnd)).subscribe((event: NavigationEnd) => {
       this.onRouterNavEndEvent(event.url);
+    });
+
+    addEventListener("orientationchange", (event) => {
+      location.reload();
     });
   }
 
