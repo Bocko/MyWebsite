@@ -23,7 +23,7 @@ export interface PhotoEntry {
 
 export function getSelectedFilterField(field: string, photoEntry: PhotoEntry) : string
 {
-  switch (field as keyof typeof PhotoMetadata)
+  switch (field)
   {
     case PhotoMetadata.NAME:
     {
@@ -77,15 +77,15 @@ export function getSelectedFilterField(field: string, photoEntry: PhotoEntry) : 
 }
 
 export enum PhotoMetadata {
-    NAME = "NAME",
-    LOCATION = "LOCATION",
+    NAME = "Name",
+    LOCATION = "Location",
     ISO = "ISO",
-    SHUTTER_SPEED = "SHUTTER_SPEED",
-    FSTOP = "FSTOP",
-    FOCAL_LENGTH = "FOCAL_LENGTH",
-    CAMERA_MAKER = "CAMERA_MAKER",
-    CAMERA_MODEL = "CAMERA_MODEL",
-    LENS_MAKER = "LENS_MAKER",
-    LENS_MODEL = "LENS_MODEL",
-    DATE = "DATE"
+    SHUTTER_SPEED = "Shutter Speed",
+    FSTOP = "F-Stop",
+    FOCAL_LENGTH = "Focal Length",
+    CAMERA_MAKER = "Camera Maker",
+    CAMERA_MODEL = "Camera Model",
+    LENS_MAKER = "Lens Maker",
+    LENS_MODEL = "Lens Model",
+    DATE = "Date"
   }
