@@ -54,12 +54,16 @@ h2
 {
     color: var(--mainColor);
     border-radius: 0;
+    border-color: var(--mainColor);
+    background-color: var(--backgroundColorDarker);
 }
 
 .outerBtn
 {
     color: var(--mainColor);
     border-radius: 0rem .375rem .375rem 0rem;
+    border-color: var(--mainColor);
+    background-color: var(--backgroundColorDarker);
 }
 
 .sortReversed
@@ -119,9 +123,9 @@ summary
 details
 {
     color: var(--mainColor);
-    margin: 1rem 0;
+    margin: 1rem 0 0 0;
     padding: .25rem 0;
-    background-color: var(--backgroundColor);
+    background-color: var(--backgroundColorDarker);
     border-radius: .375rem;
 }
 

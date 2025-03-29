@@ -3,25 +3,6 @@
     margin: auto;
 }
 
-.linktree-background
-{
-    background-color: var(--backgroundColorDarker);
-    border-radius: 1rem;
-    padding: 1rem;
-}
-
-@media (max-width: 991px)
-{
-    .linktree-background
-    {
-        background-color: var(--backgroundColorDarker);
-        border-radius: 1rem;
-        padding: 1rem;
-        margin: 0rem 1rem;
-        width: auto !important;
-    }
-}
-
 .header
 {
     text-align: center;
