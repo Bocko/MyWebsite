@@ -58,6 +58,10 @@ function scanFolder(folderPath, folder)
         }
     });
 
+    imgList = imgList.sort(function(x, y) {
+        return y.date.toString().localeCompare(x.date.toString());
+    });
+
     return imgList
 }
 

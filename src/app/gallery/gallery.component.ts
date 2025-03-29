@@ -33,8 +33,8 @@ export class GalleryComponent
   detailsStates: Map<string, boolean> = new Map<string, boolean>;
 
   selectedFieldFilter: string = PhotoMetadata.NAME;
-  selectedFieldSort: string = PhotoMetadata.NAME;
-  isSortingReversed: boolean = false;
+  selectedFieldSort: string = PhotoMetadata.DATE;
+  isSortingReversed: boolean = true;
 
   constructor()
   {
