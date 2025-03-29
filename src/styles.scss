@@ -4,6 +4,7 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'lightgallery/scss/lightgallery-bundle';
 @import url('./assets/icons/css/all.css');
+@import url('./assets/stylesheets/auroral.css');
 
 :root
 {
@@ -43,17 +44,21 @@ a
 	color: var(--mainColor);
 }
 
-body 
+.content-background
 {
-	background: linear-gradient(45deg, var(--backgroundColorDark), var(--backgroundColorDarker));
-    background-attachment: fixed;
-	background-size: 200% 200%;
-	animation: gradient 40s ease-in-out infinite;
+    background-color: var(--backgroundColor);
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
-@keyframes gradient 
+@media (max-width: 991px)
 {
-	0% { background-position: 0% 50%; }
-	50% { background-position: 100% 50%; }
-	100% { background-position: 0% 50%; }
+    .content-background
+    {
+        background-color: var(--backgroundColor);
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 0rem 1rem;
+        width: auto !important;
+    }
 }

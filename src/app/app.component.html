@@ -8,13 +8,13 @@
   </nav>
 </div>
 
-<div class="spacer" *ngIf="showShell"></div>
-
-<main>
+<main class="outlet-padding">
   <router-outlet></router-outlet>
+  <div class="auroral-container">
+    <div class="auroral-northern"></div>
+    <div class="auroral-stars"></div>
+  </div>
 </main>
-
-<div class="spacer" *ngIf="showShell"></div>
 
 <footer class="footer" *ngIf="showShell">
   <div class="d-flex justify-content-between container col-lg-6 p-0">
