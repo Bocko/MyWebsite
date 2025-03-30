@@ -40,8 +40,9 @@ a:hover
     border: 0.2rem solid var(--mainColor);
     border-radius: 1rem;
     padding: 1rem;
-    margin: 1rem 0;
+    margin: 1rem;
     background-color: var(--backgroundColorDarker);
+    height: auto;
 }
 
 .topics
