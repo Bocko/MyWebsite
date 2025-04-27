@@ -4,11 +4,10 @@ import { NavigationEnd, Router, RouterModule } from '@angular/router';
 import { filter } from 'rxjs';
 
 @Component({
-  selector: 'mw-root',
-  standalone: true,
-  imports: [ RouterModule, CommonModule ],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+    selector: 'mw-root',
+    imports: [RouterModule, CommonModule],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
   

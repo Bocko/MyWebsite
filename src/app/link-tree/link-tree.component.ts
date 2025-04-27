@@ -3,11 +3,10 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'mw-link-tree',
-  standalone: true,
-  imports: [ CommonModule, RouterModule ],
-  templateUrl: './link-tree.component.html',
-  styleUrl: './link-tree.component.scss'
+    selector: 'mw-link-tree',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './link-tree.component.html',
+    styleUrl: './link-tree.component.scss'
 })
 export class LinkTreeComponent {
 

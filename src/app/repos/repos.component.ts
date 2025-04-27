@@ -4,11 +4,10 @@ import { RepoHandlerService } from '../services/repo-handler.service';
 import { RepoEntry } from '../interfaces/repo-entry';
 
 @Component({
-  selector: 'mw-repos',
-  standalone: true,
-  imports: [ CommonModule ],
-  templateUrl: './repos.component.html',
-  styleUrl: './repos.component.scss'
+    selector: 'mw-repos',
+    imports: [CommonModule],
+    templateUrl: './repos.component.html',
+    styleUrl: './repos.component.scss'
 })
 export class ReposComponent {
 

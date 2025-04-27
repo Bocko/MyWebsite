@@ -3,11 +3,10 @@ import { TimelineComponent } from "../timeline/timeline.component";
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'mw-about',
-  standalone: true,
-  imports: [ TimelineComponent, RouterModule ],
-  templateUrl: './about.component.html',
-  styleUrl: './about.component.scss'
+    selector: 'mw-about',
+    imports: [TimelineComponent, RouterModule],
+    templateUrl: './about.component.html',
+    styleUrl: './about.component.scss'
 })
 export class AboutComponent {
   workTimelineEntries = 

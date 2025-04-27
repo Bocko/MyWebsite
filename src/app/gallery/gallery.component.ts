@@ -12,11 +12,10 @@ import { LightGallery } from 'lightgallery/lightgallery';
 import { EnumToArrayPipe } from '../services/pipes';
 
 @Component({
-  selector: 'mw-gallery',
-  standalone: true,
-  imports: [ LightgalleryModule, CommonModule, EnumToArrayPipe, FormsModule ],
-  templateUrl: './gallery.component.html',
-  styleUrl: './gallery.component.scss'
+    selector: 'mw-gallery',
+    imports: [LightgalleryModule, CommonModule, EnumToArrayPipe, FormsModule],
+    templateUrl: './gallery.component.html',
+    styleUrl: './gallery.component.scss'
 })
 export class GalleryComponent
 {
