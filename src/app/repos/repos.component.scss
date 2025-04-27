@@ -37,12 +37,17 @@ a:hover
 
 .repo-item
 {
-    border: 0.2rem solid var(--mainColor);
+    border: 0.15rem solid var(--mainColor);
     border-radius: 1rem;
     padding: 1rem;
-    margin: 1rem;
+    margin-bottom: 1rem;
     background-color: var(--backgroundColorDarker);
     height: auto;
+}
+
+.repo-item:last-child
+{
+    margin: 0;
 }
 
 .topics

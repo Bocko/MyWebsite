@@ -44,6 +44,11 @@ a
 	color: var(--mainColor);
 }
 
+a:hover
+{
+	color: var(--selectionColor);
+}
+
 .content-background
 {
     background-color: var(--backgroundColor);

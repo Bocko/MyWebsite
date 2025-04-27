@@ -2,13 +2,8 @@
 {
   font-size: 1.5em;
   align-content: center;
-  padding: .5rem;
+  padding: .25rem;
   background-color: var(--backgroundColor);
-}
-
-main
-{
-  min-height: calc(100vh - 5.75rem);
 }
 
 .outlet-padding
@@ -57,10 +52,4 @@ nav div a:hover
 {
   cursor: pointer;
   color: var(--selectionColor) !important;
-}
-
-.footer
-{
-  background-color: var(--backgroundColor);
-  padding: 0.5rem;
 }

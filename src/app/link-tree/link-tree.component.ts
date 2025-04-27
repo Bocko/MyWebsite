@@ -16,8 +16,8 @@ export class LinkTreeComponent {
       name: "Web",
       link: "https://lgbotond.com",
       icon: "fa-solid fa-globe",
-      color: "#4F6367",
-      textColor: "#FCF7F8",
+      color: "#25D7AA",
+      textColor: "#000",
       logoColor: "#CC2936"
     },
     {

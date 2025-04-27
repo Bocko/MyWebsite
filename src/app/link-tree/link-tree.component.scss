@@ -1,6 +1,15 @@
 .outer
 {
     margin: auto;
+    height: 100%;
+}
+
+@media (max-width: 1199px)
+{
+    .outer
+    {
+        margin: 0 1rem;
+    }
 }
 
 .header
@@ -15,16 +24,21 @@
     padding: 2rem;
     background-color: black;
     border: .125rem solid white;
-    margin: 1rem;
+    margin: 0 0 1rem 0;
     cursor: pointer;
 }
 
 .linkButton
 {
-    border-radius: .75rem;
+    display: block;
     font-size: 1.75rem;
-    margin: 1rem 0;
+    margin-top: 1rem;
     text-align: center;
+}
+
+.linkButtonInner
+{
+    border-radius: .5rem;
 }
 
 a
@@ -59,10 +73,8 @@ span
     animation: glowing 40s linear infinite;
     opacity: 0;
     transition: opacity .3s ease-in-out;
-    border-radius: .75rem;
+    border-radius: .5rem;
 }
-
-
 
 .glow-on-hover:active:after {
     background: transparent;

@@ -50,20 +50,32 @@ h2
     }
 }
 
-.innerBtn
+.lg-toolbar
+{
+    background-color: white !important;
+}
+
+.btn
 {
     color: var(--mainColor);
-    border-radius: 0;
     border-color: var(--mainColor);
     background-color: var(--backgroundColorDarker);
 }
 
+.innerBtn
+{
+    border-radius: 0;
+}
+
 .outerBtn
 {
-    color: var(--mainColor);
     border-radius: 0rem .375rem .375rem 0rem;
-    border-color: var(--mainColor);
-    background-color: var(--backgroundColorDarker);
+}
+
+.btn:hover
+{
+    color: var(--textColor);
+    border-color: var(--textColor);
 }
 
 .sortReversed
@@ -102,12 +114,17 @@ h2
     margin: .15rem;
     max-width: 18rem;
     max-height: 10rem;
+    transition: transform .2s;
 }
 
 .img-responsive:hover
 {
     cursor: pointer;
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
 }
+
 
 .details-marker
 {
@@ -118,13 +135,23 @@ h2
 summary
 {
     display: flex;
+    margin: .25rem 0;
+}
+
+summary:hover h2
+{
+    color: var(--selectionColor);
+}
+
+summary:hover span
+{
+    color: var(--selectionColor);
 }
 
 details
 {
     color: var(--mainColor);
     margin: 1rem 0 0 0;
-    padding: .25rem 0;
     background-color: var(--backgroundColorDarker);
     border-radius: .375rem;
 }
