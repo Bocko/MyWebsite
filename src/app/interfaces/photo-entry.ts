@@ -8,6 +8,8 @@ export interface PhotoEntry {
     thumbnailPath: string;
     name: string;
     slideName: string;
+    airline: string;
+    aircraft: string;
     location: string;
     ISO: number;
     shutterSpeed: string;
@@ -28,6 +30,14 @@ export function getSelectedFilterField(field: string, photoEntry: PhotoEntry) : 
     case PhotoMetadata.NAME:
     {
       return photoEntry.name;
+    }
+    case PhotoMetadata.AIRLINE:
+    {
+      return photoEntry.airline;
+    }
+    case PhotoMetadata.AIRCRAFT:
+    {
+      return photoEntry.aircraft;
     }
     case PhotoMetadata.LOCATION:
     {
@@ -78,6 +88,8 @@ export function getSelectedFilterField(field: string, photoEntry: PhotoEntry) : 
 
 export enum PhotoMetadata {
     NAME = "Name",
+    AIRLINE = "Airline",
+    AIRCRAFT = "Aircraft",
     LOCATION = "Location",
     ISO = "ISO",
     SHUTTER_SPEED = "Shutter Speed",

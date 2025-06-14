@@ -45,51 +45,55 @@
             </summary>
             <div class="galleryHolder">
                 <lightgallery [settings]="gallerySettings[i]" [onInit]="onGalleryInit" class="center-items">
-                    <a *ngFor="let image of gallery.items"
-                      [attr.data-src]="image.path"
-                      [attr.data-slide-name]="image.slideName"
-                      attr.data-sub-html="
-                        <h3>
-                            {{image.name}}
-                        </h3>
-                        <div class='d-flex justify-content-center'>
-                            <div class='mx-4 text-start'>
-                                <p>
-                                    <span class='text-nowrap'>Location -</span> {{image.location}}
-                                </p>
-                                <p>
-                                    <span class='text-nowrap'>Date -</span> {{image.date}}
-                                </p>
-                            </div>
-                            <div class='mx-4 text-start'>
-                                <p>
-                                    <span class='text-nowrap'>Camera -</span> {{image.cameraMaker}} {{image.cameraModel}}
-                                </p>
-                                <p>
-                                    <span class='text-nowrap'>Lens -</span> {{image.lensMaker}} {{image.lensModel}}
-                                </p>
-                            </div>
-                            <div class='mx-4 text-start'>
-                                <p>
-                                    <span class='text-nowrap'>ISO -</span> {{image.ISO}}
-                                </p>
-                                <p>
-                                    <span class='text-nowrap'>f-Stop -</span> {{image.fStop}}
-                                </p>
-                            </div>
-                            <div class='mx-4 text-start'>
-                                <p>
-                                    <span class='text-nowrap'>Shutter Speed -</span> {{image.shutterSpeed}} s
-                                </p>
-                                <p>
-                                    <span class='text-nowrap'>Focal Length -</span> {{image.focalLength}}
-                                </p>
+                    <a  *ngFor="let image of gallery.items" [attr.data-src]="image.path" [attr.data-slide-name]="image.slideName" attr.data-sub-html="#{{image.slideName}}">
+                        <img class="img-responsive" [src]="image.thumbnailPath" />
+                        <div [id]="image.slideName" style="display:none">
+                            <h3>
+                                {{image.name}}
+                            </h3>
+                            <div class='d-flex justify-content-center'>
+                                <div  *ngIf="image.location != null && image.location != '' && image.date != null && image.date != ''" class='mx-4 text-start'>
+                                    <p *ngIf="image.location != null && image.location != ''">
+                                        <span class='text-nowrap'>Location -</span> {{image.location}}
+                                    </p>
+                                    <p *ngIf="image.date != null && image.date != ''">
+                                        <span class='text-nowrap'>Date -</span> {{image.date}}
+                                    </p>
+                                </div>
+                                <div *ngIf="image.airline != null && image.airline != '' && image.aircraft != null && image.aircraft != ''" class='mx-4 text-start'>
+                                    <p *ngIf="image.airline != null && image.airline != ''">
+                                        <span class='text-nowrap'>Airline -</span> {{image.airline}}
+                                    </p>
+                                    <p *ngIf="image.aircraft != null && image.aircraft != ''">
+                                        <span class='text-nowrap'>Aircraft -</span> {{image.aircraft}}
+                                    </p>
+                                </div>
+                                <div *ngIf="image.cameraMaker != null && image.cameraMaker != '' && image.lensModel != null && image.lensModel != ''" class='mx-4 text-start'>
+                                    <p *ngIf="image.cameraMaker != null && image.cameraMaker != ''">
+                                        <span class='text-nowrap'>Camera -</span> {{image.cameraMaker}} {{image.cameraModel}}
+                                    </p>
+                                    <p *ngIf="image.lensModel != null && image.lensModel != ''">
+                                        <span class='text-nowrap'>Lens -</span> {{image.lensMaker}} {{image.lensModel}}
+                                    </p>
+                                </div>
+                                <div *ngIf="image.ISO != null && image.ISO != 0 && image.fStop != null && image.fStop != ''" class='mx-4 text-start'>
+                                    <p *ngIf="image.ISO != null && image.ISO != 0">
+                                        <span class='text-nowrap'>ISO -</span> {{image.ISO}}
+                                    </p>
+                                    <p *ngIf="image.fStop != null && image.fStop != ''">
+                                        <span class='text-nowrap'>f-Stop -</span> {{image.fStop}}
+                                    </p>
+                                </div>
+                                <div *ngIf="image.shutterSpeed != null && image.shutterSpeed != '' && image.focalLength != null && image.focalLength != ''" class='mx-4 text-start'>
+                                    <p *ngIf="image.shutterSpeed != null && image.shutterSpeed != ''">
+                                        <span class='text-nowrap'>Shutter Speed -</span> {{image.shutterSpeed}} s
+                                    </p>
+                                    <p *ngIf="image.focalLength != null && image.focalLength != ''">
+                                        <span class='text-nowrap'>Focal Length -</span> {{image.focalLength}}
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        ">
-                      <img
-                        class="img-responsive"
-                        src="{{image.thumbnailPath}}" />
                     </a>
                 </lightgallery>
             </div>

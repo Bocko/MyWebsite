@@ -10,6 +10,10 @@ const webPath = './assets/imgs/';
 const thumbnailFolder = "thumbnail";
 const outputFileName = 'img-list.json';
 
+const slideNamePrefix = "pid-"
+
+const thumbnailSize = 300;
+
 function isValidImage(filePath)
 {
     return !fs.statSync(filePath).isDirectory() && path.parse(filePath).ext != '.json';
@@ -29,18 +33,30 @@ function scanFolder(folderPath, folder)
         if (isValidImage(originalPath))
         {
             const pathedItem = path.parse(item);
-            const itemSplit = pathedItem.name.split('_');
+            const splitName = pathedItem.name.split('_');
 
-            const exifTags = ExifReader.load(fs.readFileSync(originalPath));
+            const name = splitName[0];
+            const location = splitName[1];
+            let airline = "";
+            let aircraft = "";
+            if (splitName.length > 2)
+            {
+                airline = splitName[2];
+                aircraft = splitName[3];
+            }
 
             let img = {};
             img.path = path.join(webPath, folder, item);
             img.thumbnailPath = path.join(webPath, folder, thumbnailFolder, item);
-            img.name = itemSplit[0];
-            img.slideName = latinize(itemSplit[0].replaceAll(" ", "-").toLowerCase());
-            img.location = itemSplit[1];
+            img.name = name;
+            img.slideName = slideNamePrefix + latinize(name.replaceAll(/[ +]/g, "-").toLowerCase());
+            img.location = location;
+            img.airline = airline;
+            img.aircraft = aircraft;
 
             // from exif data
+
+            const exifTags = ExifReader.load(fs.readFileSync(originalPath));
 
             img.ISO = exifTags["ISOSpeedRatings"]?.description;
             img.shutterSpeed = exifTags["ExposureTime"]?.description;
@@ -82,10 +98,10 @@ function generateThumbnails(folderPath)
         {
             const thumbnailPath = path.join(thumbnailFolderPath, item);
 
-            if(!fs.existsSync(thumbnailPath))
+            if (!fs.existsSync(thumbnailPath))
             {
                 sharp(originalPath)
-                .resize(300)
+                .resize(thumbnailSize)
                 .toFile(thumbnailPath, (err, info) => {
                     console.log(err);
                     console.log(info);
