@@ -24,6 +24,14 @@ function padDate(date)
     return date.toString().padStart(2, '0');
 }
 
+function cleanName(name)
+{
+    name = name.toLowerCase();
+    name = name.replaceAll(/[?!()]/g, "");
+    name = name.replaceAll(/[ +]/g, "-");
+    return slideNamePrefix + latinize(name);
+}
+
 function scanFolder(folderPath, folder)
 {
     let imgList = [];
@@ -49,7 +57,7 @@ function scanFolder(folderPath, folder)
             img.path = path.join(webPath, folder, item);
             img.thumbnailPath = path.join(webPath, folder, thumbnailFolder, item);
             img.name = name;
-            img.slideName = slideNamePrefix + latinize(name.replaceAll(/[ +]/g, "-").toLowerCase());
+            img.slideName = cleanName(name);
             img.location = location;
             img.airline = airline;
             img.aircraft = aircraft;
