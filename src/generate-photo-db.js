@@ -27,7 +27,7 @@ function padDate(date)
 function cleanName(name)
 {
     name = name.toLowerCase();
-    name = name.replaceAll(/[?!()]/g, "");
+    name = name.replaceAll(/[?!(),]/g, "");
     name = name.replaceAll(/[ +]/g, "-");
     return slideNamePrefix + latinize(name);
 }
