@@ -8,7 +8,8 @@ import latinize from 'latinize';
 const fullPath = './public/assets/imgs/';
 const webPath = './assets/imgs/';
 const thumbnailFolder = "thumbnail";
-const outputFileName = 'img-list.json';
+const imgListOutputFileName = 'img-list.json';
+const imgCategoriesOutputFileName = 'img-categories.json';
 
 const slideNamePrefix = "pid-"
 
@@ -36,7 +37,8 @@ function scanFolder(folderPath, folder)
 {
     let imgList = [];
 
-    fs.readdirSync(folderPath).forEach(item => {
+    fs.readdirSync(folderPath).forEach(item => 
+    {
         const originalPath = path.join(folderPath, item);
         if (isValidImage(originalPath))
         {
@@ -82,7 +84,8 @@ function scanFolder(folderPath, folder)
         }
     });
 
-    imgList = imgList.sort(function(x, y) {
+    imgList = imgList.sort(function(x, y) 
+    {
         return y.date.toString().localeCompare(x.date.toString());
     });
 
@@ -99,7 +102,8 @@ function generateThumbnails(folderPath)
         fs.mkdirSync(thumbnailFolderPath);
     }
 
-    fs.readdirSync(folderPath).forEach(item => {
+    fs.readdirSync(folderPath).forEach(item => 
+    {
         const originalPath = path.join(folderPath, item);
 
         if (isValidImage(originalPath))
@@ -110,7 +114,8 @@ function generateThumbnails(folderPath)
             {
                 sharp(originalPath)
                 .resize(thumbnailSize)
-                .toFile(thumbnailPath, (err, info) => {
+                .toFile(thumbnailPath, (err, info) => 
+                {
                     console.log(err);
                     console.log(info);
                 });
@@ -121,42 +126,32 @@ function generateThumbnails(folderPath)
 
 function scanFolders()
 {
-    let imgFolderList = [];
-    fs.readdirSync(fullPath).forEach(folder => {
-        if (fs.statSync(path.join(fullPath, folder)).isDirectory())
+    let imgCategories = [];
+    fs.readdirSync(fullPath).forEach(folderName => 
+    {
+        if (fs.statSync(path.join(fullPath, folderName)).isDirectory())
         {
-            const folderItem = {};
-            folderItem.name = folder;
+            const folderPath = path.join(fullPath, folderName);
     
-            const folderPath = path.join(fullPath, folder);
-    
-            console.log("Scanning folder for: " + folder);
-            folderItem.items = scanFolder(folderPath, folder);
+            console.log("Scanning folder for: " + folderName);
+            const folderItems = scanFolder(folderPath, folderName);
             console.log("Scanning done.");
     
-            console.log("Generating thumbnails for: " + folder);
+            console.log("Generating thumbnails for: " + folderName);
             generateThumbnails(folderPath);
             console.log("Thumbnail generation done.");
     
-            imgFolderList.push(folderItem);
+            fs.writeFileSync(path.join(fullPath, folderName.toLowerCase() + "-img-list" + '.json'), JSON.stringify(folderItems, null, 2));
+
+            const category = {};
+            category.name = folderName;
+            category.count = folderItems.length;
+
+            imgCategories.push(category);
         }
     })
 
-    imgFolderList.sort(function(x, y) {
-        if(x.items.length < y.items.length)
-        {
-            return 1;
-        }
-        
-        if(x.items.length > y.items.length)
-        {
-            return -1;
-        }
-
-        return 0;
-    });
-
-    fs.writeFileSync(path.join(fullPath, outputFileName), JSON.stringify(imgFolderList, null, 2));
+    fs.writeFileSync(path.join(fullPath, imgCategoriesOutputFileName), JSON.stringify(imgCategories, null, 2));
 }
 
 scanFolders();

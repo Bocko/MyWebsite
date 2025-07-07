@@ -1,5 +1,6 @@
 import {Routes} from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { GalleryCategoriesComponent } from './gallery-categories/gallery-categories.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ReposComponent } from './repos/repos.component';
 import { LinkTreeComponent } from './link-tree/link-tree.component';
@@ -12,6 +13,11 @@ const routeConfig: Routes = [
     },
     {
       path: 'gallery',
+      component: GalleryCategoriesComponent,
+      title: 'Photo Categories',
+    },
+    {
+      path: 'gallery/:galleryname',
       component: GalleryComponent,
       title: 'Photo Gallery',
     },

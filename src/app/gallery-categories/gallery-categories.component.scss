@@ -1,0 +1,42 @@
+.categoryItem
+{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: var(--backgroundColorDarker);
+    border-radius: .5rem;
+    padding: .75rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+.categoryItem:first-child
+{
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.categoryItem:last-child
+{
+    margin-top: .5rem;
+    margin-bottom: 0;
+}
+
+.categoryItem:hover .categoryName
+{
+    color: var(--selectionColor);
+}
+
+.categoryName
+{
+    color: var(--iconColor);
+}
+
+.photoCount
+{
+    margin: auto 0;
+    font-size: 1rem;
+    color: var(--textColorSecondary);
+}

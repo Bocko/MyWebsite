@@ -1,0 +1,6 @@
+<div class="container-fluid col-lg-5 content-background">
+    <div *ngFor="let category of categories" class="categoryItem" [routerLink]="['/gallery/',category.name]">
+        <span class="categoryName">{{category.name}}</span>
+        <span class="photoCount">{{category.count}} Photos</span>
+    </div>
+</div>

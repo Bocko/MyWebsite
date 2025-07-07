@@ -1,6 +1,7 @@
-export interface PhotoListEntry {
-    name : string;
-    items : PhotoEntry[];
+export interface CategoryEntry
+{
+  name: string;
+  count: number;
 }
 
 export interface PhotoEntry {

@@ -3,33 +3,43 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { LightgalleryComponent, LightgalleryModule } from 'lightgallery/angular';
 import { PhotoHandlerService } from '../services/photo-handler.service';
-import { getSelectedFilterField, PhotoListEntry, PhotoMetadata } from '../interfaces/photo-entry';
+import { getSelectedFilterField, PhotoEntry, PhotoMetadata } from '../interfaces/photo-entry';
 import lgZoom from 'lightgallery/plugins/zoom';
 import lgHash from 'lightgallery/plugins/hash';
 import lgFullscreen from 'lightgallery/plugins/fullscreen';
 import { InitDetail } from 'lightgallery/lg-events';
 import { LightGallery } from 'lightgallery/lightgallery';
 import { EnumToArrayPipe } from '../services/pipes';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 
 @Component({
     selector: 'mw-gallery',
-    imports: [LightgalleryModule, CommonModule, EnumToArrayPipe, FormsModule],
+    imports: [LightgalleryModule, CommonModule, EnumToArrayPipe, FormsModule, RouterModule],
     templateUrl: './gallery.component.html',
     styleUrl: './gallery.component.scss'
 })
 export class GalleryComponent
 {
+  private activatedRoute = inject(ActivatedRoute);
   photoHandler: PhotoHandlerService = inject(PhotoHandlerService);
   PhotoMetadata = PhotoMetadata
 
-  galleryLists : PhotoListEntry[] = [];
-  filteredGalleryLists :  PhotoListEntry[] = [];
+  category = '';
 
-  galleries: LightGallery[] = [];
-  gallerySettings: LightgalleryComponent["settings"][] = [];
-  othersGallery!: LightGallery;
+  galleryList : PhotoEntry[] = [];
+  filteredGalleryList :  PhotoEntry[] = [];
 
-  detailsStates: Map<string, boolean> = new Map<string, boolean>;
+  lightGallery! : LightGallery;
+  gallerySettings : LightgalleryComponent["settings"] = 
+  {
+    download: false,
+    counter: true,
+    infiniteZoom: true,
+    actualSize: false,
+    showZoomInOutIcons: true,
+    customSlideName: true,
+    plugins: [lgZoom, lgHash, lgFullscreen]
+  };
 
   selectedFieldFilter: string = PhotoMetadata.NAME;
   selectedFieldSort: string = PhotoMetadata.DATE;
@@ -37,115 +47,47 @@ export class GalleryComponent
 
   constructor()
   {
-    this.photoHandler.getImageLists().then((galleryLists: PhotoListEntry[]) => 
-    {
-      this.galleryLists = galleryLists;
-      this.createGallerySettings();
-      this.filteredGalleryLists = JSON.parse(JSON.stringify(this.galleryLists));
+    this.category = this.activatedRoute.snapshot.paramMap.get('galleryname') ?? '';
 
-      for (let index = 0; index < galleryLists.length; index++)
-      {
-        const element = galleryLists[index];
-        this.detailsStates.set(element.name, false);
-      }
+    this.photoHandler.getImageList(this.category).then((loadedGalleryList: PhotoEntry[]) => 
+    {
+      this.galleryList = loadedGalleryList;
+      this.filteredGalleryList = JSON.parse(JSON.stringify(this.galleryList));
+      this.refreshGallery();
     });
   }
 
 //#region Gallery Methods
 
-  createGallerySettings()
+  onGalleryInit = (detail: InitDetail): void => 
   {
-    for (let i = 0; i < this.galleryLists.length; i++) {
-      const settings : LightgalleryComponent["settings"] = 
-      {
-        galleryId: this.galleryLists[i].name,
-        download: false,
-        counter: true,
-        infiniteZoom: true,
-        actualSize: false,
-        showZoomInOutIcons: true,
-        customSlideName: true,
-        plugins: [lgZoom, lgHash, lgFullscreen]
-      };
-      
-      this.gallerySettings.push(settings);
-    }
-  }
-
-  onGalleryInit = (detail: InitDetail): void => {
-    detail.instance.settings.galleryId = this.galleries.length.toString();
-    detail.instance.refresh();
-    this.galleries.push(detail.instance);
-
-    let numberOfGalleries = 0;
-
-    this.filteredGalleryLists.forEach(element =>
-    {
-      if (element.items.length > 0)
-      {
-        numberOfGalleries++;
-      }
-    });
-
-    if (this.galleries.length == numberOfGalleries)
-    {
-      this.applyDetailsStates();
-    }
+    this.lightGallery = detail.instance;
+    this.refreshGallery();
   };
 
-  refreshGalleries() 
+  refreshGallery()
   {
-    this.galleries.forEach(gallery => 
+    // idk why I need the setTimeout here, but that is the only way to get the gallery to refresh properly
+    setTimeout(() =>
     {
-      gallery.refresh();
-    });
+      this.lightGallery.refresh();
+    }, 0);
   }
 
 //#endregion Gallery Methods
-
-//#region Gallery Open/Close State Handlers
-
-  updateDetailsStates()
-  {
-    this.detailsStates.forEach((isOpen, id, _) =>
-    {
-      const element = document.getElementById(id);
-      if (element != null)
-      {
-        this.detailsStates.set(id, element!.hasAttribute("open"));
-      }
-    });
-  }
-
-  applyDetailsStates()
-  {
-    this.detailsStates.forEach((isOpen, id, _) =>
-    {
-      if (isOpen)
-      {
-        document.getElementById(id)?.setAttribute("open", "true");
-      }
-    });
-  }
-
-//#endregion Gallery Open/Close State Handlers
 
 //#region Filtering
 
   filterGalleries(text: string)
   {
-    this.updateDetailsStates();
-    this.galleries = [];
-    this.filteredGalleryLists = JSON.parse(JSON.stringify(this.galleryLists));
+    this.filteredGalleryList = JSON.parse(JSON.stringify(this.galleryList));
 
     if (text && this.selectedFieldFilter)
     {
-      for (let i : number = 0; i < this.filteredGalleryLists.length; i++)
-      {
-        this.filteredGalleryLists[i].items = this.filteredGalleryLists[i].items.filter((photoEntry) =>
-          getSelectedFilterField(this.selectedFieldFilter, photoEntry).toLowerCase().includes(text.toLowerCase())
-        );
-      }
+      this.filteredGalleryList = this.filteredGalleryList.filter((photoEntry) =>
+      {        
+        return getSelectedFilterField(this.selectedFieldFilter, photoEntry).toLowerCase().includes(text.toLowerCase())
+      });
     }
 
     this.sortGalleries();
@@ -163,15 +105,11 @@ export class GalleryComponent
 
   sortGalleries()
   {
-    this.updateDetailsStates();
-    this.galleries = [];
-    this.filteredGalleryLists = JSON.parse(JSON.stringify(this.filteredGalleryLists));
+    this.filteredGalleryList = JSON.parse(JSON.stringify(this.filteredGalleryList));
 
     const selectedSort = this.selectedFieldSort;
 
-    for (let i : number = 0; i < this.filteredGalleryLists.length; i++)
-    {
-      this.filteredGalleryLists[i].items = this.filteredGalleryLists[i].items.sort((photoA, photoB) =>
+    this.filteredGalleryList = this.filteredGalleryList.sort((photoA, photoB) =>
       {
         if (this.isSortingReversed)
         {
@@ -182,9 +120,8 @@ export class GalleryComponent
           return getSelectedFilterField(selectedSort, photoA).localeCompare(getSelectedFilterField(selectedSort, photoB))
         }
       });
-    }
 
-    this.refreshGalleries();
+    this.refreshGallery();
   }
 
   reverseSorting()
