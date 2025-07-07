@@ -1,0 +1,72 @@
+[
+  {
+    "path": "assets/imgs/Satellite/METEOR-M2-4_Kert.jpg",
+    "thumbnailPath": "assets/imgs/Satellite/thumbnail/METEOR-M2-4_Kert.jpg",
+    "name": "METEOR-M2-4",
+    "slideName": "pid-meteor-m2-4",
+    "location": "Kert",
+    "airline": "",
+    "aircraft": "",
+    "date": "2025-03-30 19:13:00"
+  },
+  {
+    "path": "assets/imgs/Satellite/NOAA-19-2_Kert.jpg",
+    "thumbnailPath": "assets/imgs/Satellite/thumbnail/NOAA-19-2_Kert.jpg",
+    "name": "NOAA-19-2",
+    "slideName": "pid-noaa-19-2",
+    "location": "Kert",
+    "airline": "",
+    "aircraft": "",
+    "date": "2025-03-07 19:30:25"
+  },
+  {
+    "path": "assets/imgs/Satellite/NOAA-15_Kert.jpg",
+    "thumbnailPath": "assets/imgs/Satellite/thumbnail/NOAA-15_Kert.jpg",
+    "name": "NOAA-15",
+    "slideName": "pid-noaa-15",
+    "location": "Kert",
+    "airline": "",
+    "aircraft": "",
+    "date": "2025-03-06 19:27:25"
+  },
+  {
+    "path": "assets/imgs/Satellite/NOAA-18_Kert.jpg",
+    "thumbnailPath": "assets/imgs/Satellite/thumbnail/NOAA-18_Kert.jpg",
+    "name": "NOAA-18",
+    "slideName": "pid-noaa-18",
+    "location": "Kert",
+    "airline": "",
+    "aircraft": "",
+    "date": "2025-03-05 19:25:05"
+  },
+  {
+    "path": "assets/imgs/Satellite/NOAA-19_Kert.jpg",
+    "thumbnailPath": "assets/imgs/Satellite/thumbnail/NOAA-19_Kert.jpg",
+    "name": "NOAA-19",
+    "slideName": "pid-noaa-19",
+    "location": "Kert",
+    "airline": "",
+    "aircraft": "",
+    "date": "2025-03-05 19:23:05"
+  },
+  {
+    "path": "assets/imgs/Satellite/NOAA-18_Városliget.jpg",
+    "thumbnailPath": "assets/imgs/Satellite/thumbnail/NOAA-18_Városliget.jpg",
+    "name": "NOAA-18",
+    "slideName": "pid-noaa-18",
+    "location": "Városliget",
+    "airline": "",
+    "aircraft": "",
+    "date": "2025-03-01 19:19:29"
+  },
+  {
+    "path": "assets/imgs/Satellite/NOAA-19_Városliget.jpg",
+    "thumbnailPath": "assets/imgs/Satellite/thumbnail/NOAA-19_Városliget.jpg",
+    "name": "NOAA-19",
+    "slideName": "pid-noaa-19",
+    "location": "Városliget",
+    "airline": "",
+    "aircraft": "",
+    "date": "2025-03-01 19:19:03"
+  }
+]
