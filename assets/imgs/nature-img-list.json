@@ -1,0 +1,53 @@
+[
+  {
+    "path": "assets/imgs/Nature/Viola_Káplony.jpg",
+    "thumbnailPath": "assets/imgs/Nature/thumbnail/Viola_Káplony.jpg",
+    "name": "Viola",
+    "slideName": "pid-viola",
+    "location": "Káplony",
+    "airline": "",
+    "aircraft": "",
+    "ISO": 100,
+    "shutterSpeed": "1/400",
+    "fStop": "f/1.8",
+    "focalLength": "40 mm",
+    "cameraMaker": "SONY",
+    "cameraModel": "ILCE-6700",
+    "lensModel": "17-40mm F1.8 DC | Art 025",
+    "date": "2025-07-24 08:33:55"
+  },
+  {
+    "path": "assets/imgs/Nature/Bíbor kasvirág_Káplony.jpg",
+    "thumbnailPath": "assets/imgs/Nature/thumbnail/Bíbor kasvirág_Káplony.jpg",
+    "name": "Bíbor kasvirág",
+    "slideName": "pid-bibor-kasvirag",
+    "location": "Káplony",
+    "airline": "",
+    "aircraft": "",
+    "ISO": 100,
+    "shutterSpeed": "1/500",
+    "fStop": "f/1.8",
+    "focalLength": "40 mm",
+    "cameraMaker": "SONY",
+    "cameraModel": "ILCE-6700",
+    "lensModel": "17-40mm F1.8 DC | Art 025",
+    "date": "2025-07-20 10:12:39"
+  },
+  {
+    "path": "assets/imgs/Nature/Növény_SpotterDomb2.jpg",
+    "thumbnailPath": "assets/imgs/Nature/thumbnail/Növény_SpotterDomb2.jpg",
+    "name": "Növény",
+    "slideName": "pid-noveny",
+    "location": "SpotterDomb2",
+    "airline": "",
+    "aircraft": "",
+    "ISO": 800,
+    "shutterSpeed": "1/400",
+    "fStop": "f/6.3",
+    "focalLength": "350 mm",
+    "cameraMaker": "SONY",
+    "cameraModel": "ILCE-6000",
+    "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+    "date": "2024-12-27 11:21:15"
+  }
+]

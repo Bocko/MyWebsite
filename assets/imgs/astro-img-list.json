@@ -1,5 +1,22 @@
 [
   {
+    "path": "assets/imgs/Astro/sky1_Géberjén.jpg",
+    "thumbnailPath": "assets/imgs/Astro/thumbnail/sky1_Géberjén.jpg",
+    "name": "sky1",
+    "slideName": "pid-sky1",
+    "location": "Géberjén",
+    "airline": "",
+    "aircraft": "",
+    "ISO": 1600,
+    "shutterSpeed": "15",
+    "fStop": "f/1.8",
+    "focalLength": "17 mm",
+    "cameraMaker": "SONY",
+    "cameraModel": "ILCE-6700",
+    "lensModel": "17-40mm F1.8 DC | Art 025",
+    "date": "2025-07-23 20:52:38"
+  },
+  {
     "path": "assets/imgs/Astro/Jupiter(Kinda)_Kert.jpg",
     "thumbnailPath": "assets/imgs/Astro/thumbnail/Jupiter(Kinda)_Kert.jpg",
     "name": "Jupiter(Kinda)",

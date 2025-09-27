@@ -1,19 +1,23 @@
 [
   {
     "name": "Architecture",
-    "count": 7
-  },
-  {
-    "name": "Astro",
-    "count": 5
-  },
-  {
-    "name": "Landscape",
     "count": 10
   },
   {
+    "name": "Astro",
+    "count": 6
+  },
+  {
+    "name": "Landscape",
+    "count": 17
+  },
+  {
+    "name": "Nature",
+    "count": 3
+  },
+  {
     "name": "Planespotting",
-    "count": 288
+    "count": 383
   },
   {
     "name": "Satellite",
@@ -21,6 +25,6 @@
   },
   {
     "name": "Wildlife",
-    "count": 19
+    "count": 25
   }
 ]
