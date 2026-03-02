@@ -1,11 +1,11 @@
 import { Component, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { RepoHandlerService } from '../services/repo-handler.service';
 import { RepoEntry } from '../interfaces/repo-entry';
 
 @Component({
     selector: 'mw-repos',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './repos.component.html',
     styleUrl: './repos.component.scss'
 })

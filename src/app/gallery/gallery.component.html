@@ -1,101 +1,137 @@
 <div class="container-fluid col-lg-10 content-background">
-    <div class="headerHolder">
-        <button class="btn btn-outline-secondary backBtn" type="button" [routerLink]="['/gallery']">
-            <i class="fas fa-arrow-left"></i>
-        </button>
-        <h2 class="categoryHeader" (click)="refreshGallery()">
-            {{category}}
-        </h2>
-        <button class="btn btn-outline-secondary backBtn" type="button" style="visibility: hidden;">
-            <i class="fas fa-arrow-left"></i>
-        </button>
-    </div>
-    <div class="container-fluid search-container">
-        <div class="row">
-            <div class="col-xl-3 fieldFilters search-element-holder">
-                <p class="search-label">Filter By</p>
-                <select class="form-select" [(ngModel)]="selectedFieldFilter">
-                    <option *ngFor="let field of PhotoMetadata | enumToArray" [value]="field">{{field}}</option>
-                </select>
-            </div>
-            <div class="col-xl-6">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search..." (keyup.enter)="filterGalleries(filterInput.value)" id="filterInput" #filterInput>
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary innerBtn" type="button" (click)="filterGalleries(filterInput.value)">
-                            <i class="fas fa-search"></i>
-                        </button>
-                        <button class="btn btn-outline-secondary outerBtn" type="button" (click)="clearGalleriesFilter()">
-                            <i class="fas fa-x"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 fieldSort search-element-holder">
-                <p class="search-label">Sort By</p>
-                <div class="input-group">
-                    <select class="form-select" [(ngModel)]="selectedFieldSort" (change)="sortGalleries()">
-                        <option *ngFor="let field of PhotoMetadata | enumToArray" [value]="field">{{field}}</option>
-                    </select>
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary outerBtn" type="button" (click)="reverseSorting()">
-                            <i class="fas fa-arrow-up sortReversed" id="sortReverseButton"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
+  <div class="headerHolder">
+    <button class="btn btn-outline-secondary backBtn" type="button" [routerLink]="['/gallery']">
+      <i class="fas fa-arrow-left"></i>
+    </button>
+    <h2 class="categoryHeader" (click)="refreshGallery()">
+      {{category}}
+    </h2>
+    <button class="btn btn-outline-secondary backBtn" type="button" style="visibility: hidden;">
+      <i class="fas fa-arrow-left"></i>
+    </button>
+  </div>
+  <div class="container-fluid search-container">
+    <div class="row">
+      <div class="col-xl-3 fieldFilters search-element-holder">
+        <p class="search-label">Filter By</p>
+        <select class="form-select" [(ngModel)]="selectedFieldFilter">
+          @for (field of PhotoMetadata | enumToArray; track field) {
+            <option [value]="field">{{field}}</option>
+          }
+        </select>
+      </div>
+      <div class="col-xl-6">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search..." (keyup.enter)="filterGalleries(filterInput.value)" id="filterInput" #filterInput>
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary innerBtn" type="button" (click)="filterGalleries(filterInput.value)">
+              <i class="fas fa-search"></i>
+            </button>
+            <button class="btn btn-outline-secondary outerBtn" type="button" (click)="clearGalleriesFilter()">
+              <i class="fas fa-x"></i>
+            </button>
+          </div>
         </div>
+      </div>
+      <div class="col-xl-3 fieldSort search-element-holder">
+        <p class="search-label">Sort By</p>
+        <div class="input-group">
+          <select class="form-select" [(ngModel)]="selectedFieldSort" (change)="sortGalleries()">
+            @for (field of PhotoMetadata | enumToArray; track field) {
+              <option [value]="field">{{field}}</option>
+            }
+          </select>
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary outerBtn" type="button" (click)="reverseSorting()">
+              <i class="fas fa-arrow-up sortReversed" id="sortReverseButton"></i>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-    <lightgallery [settings]="gallerySettings" [onInit]="onGalleryInit" class="center-items">
-        <a *ngFor="let image of filteredGalleryList" [attr.data-src]="image.path" [attr.data-slide-name]="image.slideName" attr.data-sub-html="#{{image.slideName}}">
-            <img class="img-responsive" [src]="image.thumbnailPath" />
-            <div [id]="image.slideName" style="display:none">
-                <h3>
-                    {{image.name}}
-                </h3>
-                <div class='center-items'>
-                    <div  *ngIf="image.location != null && image.location != '' && image.date != null && image.date != ''" class='mx-4 text-start'>
-                        <p *ngIf="image.location != null && image.location != ''">
-                            <span class='text-nowrap'>Location -</span> {{image.location}}
-                        </p>
-                        <p *ngIf="image.date != null && image.date != ''">
-                            <span class='text-nowrap'>Date -</span> {{image.date}}
-                        </p>
-                    </div>
-                    <div *ngIf="image.airline != null && image.airline != '' && image.aircraft != null && image.aircraft != ''" class='mx-4 text-start'>
-                        <p *ngIf="image.airline != null && image.airline != ''">
-                            <span class='text-nowrap'>Airline -</span> {{image.airline}}
-                        </p>
-                        <p *ngIf="image.aircraft != null && image.aircraft != ''">
-                            <span class='text-nowrap'>Aircraft -</span> {{image.aircraft}}
-                        </p>
-                    </div>
-                    <div *ngIf="image.cameraMaker != null && image.cameraMaker != '' && image.lensModel != null && image.lensModel != ''" class='mx-4 text-start'>
-                        <p *ngIf="image.cameraMaker != null && image.cameraMaker != ''">
-                            <span class='text-nowrap'>Camera -</span> {{image.cameraMaker}} {{image.cameraModel}}
-                        </p>
-                        <p *ngIf="image.lensModel != null && image.lensModel != ''">
-                            <span class='text-nowrap'>Lens -</span> {{image.lensMaker}} {{image.lensModel}}
-                        </p>
-                    </div>
-                    <div *ngIf="image.ISO != null && image.ISO != 0 && image.fStop != null && image.fStop != ''" class='mx-4 text-start'>
-                        <p *ngIf="image.ISO != null && image.ISO != 0">
-                            <span class='text-nowrap'>ISO -</span> {{image.ISO}}
-                        </p>
-                        <p *ngIf="image.fStop != null && image.fStop != ''">
-                            <span class='text-nowrap'>f-Stop -</span> {{image.fStop}}
-                        </p>
-                    </div>
-                    <div *ngIf="image.shutterSpeed != null && image.shutterSpeed != '' && image.focalLength != null && image.focalLength != ''" class='mx-4 text-start'>
-                        <p *ngIf="image.shutterSpeed != null && image.shutterSpeed != ''">
-                            <span class='text-nowrap'>Shutter Speed -</span> {{image.shutterSpeed}} s
-                        </p>
-                        <p *ngIf="image.focalLength != null && image.focalLength != ''">
-                            <span class='text-nowrap'>Focal Length -</span> {{image.focalLength}}
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </lightgallery>
+  </div>
+  <lightgallery [settings]="gallerySettings" [onInit]="onGalleryInit" class="center-items">
+    @for (image of filteredGalleryList; track image) {
+      <a [attr.data-src]="image.path" [attr.data-slide-name]="image.slideName" attr.data-sub-html="#{{image.slideName}}">
+        <img class="img-responsive" [src]="image.thumbnailPath" />
+        <div [id]="image.slideName" style="display:none">
+          <h3>
+            {{image.name}}
+          </h3>
+          <div class='center-items'>
+            @if (image.location != null && image.location != '' && image.date != null && image.date != '') {
+              <div  class='mx-4 text-start'>
+                @if (image.location != null && image.location != '') {
+                  <p>
+                    <span class='text-nowrap'>Location -</span> {{image.location}}
+                  </p>
+                }
+                @if (image.date != null && image.date != '') {
+                  <p>
+                    <span class='text-nowrap'>Date -</span> {{image.date}}
+                  </p>
+                }
+              </div>
+            }
+            @if (image.airline != null && image.airline != '' && image.aircraft != null && image.aircraft != '') {
+              <div class='mx-4 text-start'>
+                @if (image.airline != null && image.airline != '') {
+                  <p>
+                    <span class='text-nowrap'>Airline -</span> {{image.airline}}
+                  </p>
+                }
+                @if (image.aircraft != null && image.aircraft != '') {
+                  <p>
+                    <span class='text-nowrap'>Aircraft -</span> {{image.aircraft}}
+                  </p>
+                }
+              </div>
+            }
+            @if (image.cameraMaker != null && image.cameraMaker != '' && image.lensModel != null && image.lensModel != '') {
+              <div class='mx-4 text-start'>
+                @if (image.cameraMaker != null && image.cameraMaker != '') {
+                  <p>
+                    <span class='text-nowrap'>Camera -</span> {{image.cameraMaker}} {{image.cameraModel}}
+                  </p>
+                }
+                @if (image.lensModel != null && image.lensModel != '') {
+                  <p>
+                    <span class='text-nowrap'>Lens -</span> {{image.lensMaker}} {{image.lensModel}}
+                  </p>
+                }
+              </div>
+            }
+            @if (image.ISO != null && image.ISO != 0 && image.fStop != null && image.fStop != '') {
+              <div class='mx-4 text-start'>
+                @if (image.ISO != null && image.ISO != 0) {
+                  <p>
+                    <span class='text-nowrap'>ISO -</span> {{image.ISO}}
+                  </p>
+                }
+                @if (image.fStop != null && image.fStop != '') {
+                  <p>
+                    <span class='text-nowrap'>f-Stop -</span> {{image.fStop}}
+                  </p>
+                }
+              </div>
+            }
+            @if (image.shutterSpeed != null && image.shutterSpeed != '' && image.focalLength != null && image.focalLength != '') {
+              <div class='mx-4 text-start'>
+                @if (image.shutterSpeed != null && image.shutterSpeed != '') {
+                  <p>
+                    <span class='text-nowrap'>Shutter Speed -</span> {{image.shutterSpeed}} s
+                  </p>
+                }
+                @if (image.focalLength != null && image.focalLength != '') {
+                  <p>
+                    <span class='text-nowrap'>Focal Length -</span> {{image.focalLength}}
+                  </p>
+                }
+              </div>
+            }
+          </div>
+        </div>
+      </a>
+    }
+  </lightgallery>
 </div>

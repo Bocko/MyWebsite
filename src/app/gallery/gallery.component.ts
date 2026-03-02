@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+
 import { LightgalleryComponent, LightgalleryModule } from 'lightgallery/angular';
 import { PhotoHandlerService } from '../services/photo-handler.service';
 import { getSelectedFilterField, PhotoEntry, PhotoMetadata } from '../interfaces/photo-entry';
@@ -14,7 +14,7 @@ import { ActivatedRoute, RouterModule } from '@angular/router';
 
 @Component({
     selector: 'mw-gallery',
-    imports: [LightgalleryModule, CommonModule, EnumToArrayPipe, FormsModule, RouterModule],
+    imports: [LightgalleryModule, EnumToArrayPipe, FormsModule, RouterModule],
     templateUrl: './gallery.component.html',
     styleUrl: './gallery.component.scss'
 })

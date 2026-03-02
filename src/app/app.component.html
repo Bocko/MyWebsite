@@ -1,12 +1,14 @@
-<div class="navibar" *ngIf="showShell">
-  <nav class="container-fluid col-lg-6">
-    <div class="row">
+@if (showShell) {
+  <div class="navibar">
+    <nav class="container-fluid col-lg-6">
+      <div class="row">
         <a class="col-lg-4 nav-link" [routerLink]="['/']" [routerLinkActiveOptions]="{exact: true}" [routerLinkActive]="['nav-active']">About</a>
         <a class="col-lg-4 nav-link" [routerLink]="['/gallery']" [routerLinkActive]="['nav-active']">Gallery</a>
         <a class="col-lg-4 nav-link" [routerLink]="['/repos']" [routerLinkActive]="['nav-active']">Repositories</a>
-    </div>
-  </nav>
-</div>
+      </div>
+    </nav>
+  </div>
+}
 
 <main class="outlet-padding">
   <router-outlet></router-outlet>
