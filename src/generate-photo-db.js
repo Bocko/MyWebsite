@@ -30,6 +30,7 @@ function cleanName(name)
     name = name.toLowerCase();
     name = name.replaceAll(/[?!(),]/g, "");
     name = name.replaceAll(/[ +]/g, "-");
+    name = name.replaceAll(/[&]/g, "and");
     return slideNamePrefix + latinize(name);
 }
 
