@@ -28,6 +28,7 @@
     "latinize": "^2.0.0",
     "lightgallery": "^2.7.2",
     "rxjs": "~7.8.0",
+    "serialize-javascript": "^7.0.4",
     "sharp": "^0.34.5",
     "tslib": "^2.3.0",
     "zone.js": "^0.16.1"
