@@ -1,5 +1,22 @@
 [
   {
+    "path": "assets/imgs/Nature/Bogáncs_SpotterDomb2.jpg",
+    "thumbnailPath": "assets/imgs/Nature/thumbnail/Bogáncs_SpotterDomb2.jpg",
+    "name": "Bogáncs",
+    "slideName": "pid-bogancs",
+    "location": "SpotterDomb2",
+    "airline": "",
+    "aircraft": "",
+    "ISO": 500,
+    "shutterSpeed": "1/1250",
+    "fStop": "f/9.0",
+    "focalLength": "350 mm",
+    "cameraMaker": "SONY",
+    "cameraModel": "ILCE-6700",
+    "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+    "date": "2025-08-31 12:34:28"
+  },
+  {
     "path": "assets/imgs/Nature/Viola_Káplony.jpg",
     "thumbnailPath": "assets/imgs/Nature/thumbnail/Viola_Káplony.jpg",
     "name": "Viola",

@@ -1,5 +1,22 @@
 [
   {
+    "path": "assets/imgs/Wildlife/Pillangó3_Spotter Domb2.jpg",
+    "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Pillangó3_Spotter Domb2.jpg",
+    "name": "Pillangó3",
+    "slideName": "pid-pillango3",
+    "location": "Spotter Domb2",
+    "airline": "",
+    "aircraft": "",
+    "ISO": 400,
+    "shutterSpeed": "1/1600",
+    "fStop": "f/6.3",
+    "focalLength": "350 mm",
+    "cameraMaker": "SONY",
+    "cameraModel": "ILCE-6700",
+    "lensModel": "E 70-350mm F4.5-6.3 G OSS",
+    "date": "2025-08-23 10:19:34"
+  },
+  {
     "path": "assets/imgs/Wildlife/Mezei Veréb5_Géberjén.jpg",
     "thumbnailPath": "assets/imgs/Wildlife/thumbnail/Mezei Veréb5_Géberjén.jpg",
     "name": "Mezei Veréb5",
