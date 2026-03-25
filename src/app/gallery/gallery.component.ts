@@ -85,7 +85,7 @@ export class GalleryComponent
     if (text && this.selectedFieldFilter)
     {
       this.filteredGalleryList = this.filteredGalleryList.filter((photoEntry) =>
-      {        
+      {
         return getSelectedFilterField(this.selectedFieldFilter, photoEntry).toLowerCase().includes(text.toLowerCase())
       });
     }

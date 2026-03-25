@@ -125,6 +125,33 @@ function generateThumbnails(folderPath)
     });
 }
 
+function ErrorCheck(folderName, folderItems)
+{
+        folderItems.forEach(item => 
+        {
+            if(item.name == undefined || item.name == "")
+            {
+                throw "PHOTO MISSING NAME IN FOLDER: " + folderName;
+            }
+            else if(item.location == undefined || item.location == "")
+            {
+                throw  item.name + " PHOTO MISSING LOCATION IN FOLDER: " + folderName;
+            }
+
+            if(folderName.toLowerCase() == "planespotting")
+            {
+                if(item.airline == undefined)
+                {
+                    throw item.name + " PHOTO MISSING PROPERTY IN FOLDER: " + folderName;
+                }
+                else if(item.aircraft == undefined)
+                {
+                    throw item.name + " PHOTO MISSING PROPERTY IN FOLDER: " + folderName;
+                }   
+            }
+        });
+}
+
 function scanFolders()
 {
     let imgCategories = [];
@@ -142,6 +169,8 @@ function scanFolders()
             generateThumbnails(folderPath);
             console.log("Thumbnail generation done.");
     
+            ErrorCheck(folderName, folderItems);
+
             fs.writeFileSync(path.join(fullPath, folderName.toLowerCase() + "-img-list" + '.json'), JSON.stringify(folderItems, null, 2));
 
             const category = {};
