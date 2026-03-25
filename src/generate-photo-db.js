@@ -165,11 +165,11 @@ function scanFolders()
             const folderItems = scanFolder(folderPath, folderName);
             console.log("Scanning done.");
     
+            ErrorCheck(folderName, folderItems);
+    
             console.log("Generating thumbnails for: " + folderName);
             generateThumbnails(folderPath);
             console.log("Thumbnail generation done.");
-    
-            ErrorCheck(folderName, folderItems);
 
             fs.writeFileSync(path.join(fullPath, folderName.toLowerCase() + "-img-list" + '.json'), JSON.stringify(folderItems, null, 2));
 
